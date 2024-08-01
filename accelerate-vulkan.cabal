@@ -1,0 +1,142 @@
+cabal-version:      2.2
+name:               accelerate-vulkan
+version:            0.1.0.0
+description:
+  Please see the README on GitHub at <https://github.com/githubuser/accelerate-vulkan#readme>
+homepage:           https://github.com/githubuser/accelerate-vulkan#readme
+bug-reports:        https://github.com/githubuser/accelerate-vulkan/issues
+author:             Author name here
+maintainer:         example@example.com
+copyright:          2024 Author name here
+license:            BSD-3-Clause
+license-file:       LICENSE
+build-type:         Simple
+extra-source-files:
+  CHANGELOG.md
+  README.md
+
+library
+  exposed-modules:  
+      Data.Array.Accelerate.Vulkan.Operation
+    -- , Data.Array.Accelerate.Vulkan.Desugar
+    , Data.Array.Accelerate.Vulkan.Kernel
+    , Data.Array.Accelerate.Vulkan.Compile.Expression
+    , Data.Array.Accelerate.Vulkan.Compile.Env
+    , Data.Array.Accelerate.Vulkan.Compile.Atomic
+    , Data.Array.Accelerate.Vulkan.Compile.Convert
+    , Data.Array.Accelerate.Vulkan.Compile.Var
+    , Data.Array.Accelerate.Vulkan.Compile.Index
+    , Data.Array.Accelerate.Vulkan.Compile.LeftHandSide
+    , Data.Array.Accelerate.Vulkan.Compile.ArrayInstr
+    , Data.Array.Accelerate.Vulkan.Vulkan.Runtime
+    , Data.Array.Accelerate.Vulkan.Vulkan.Type
+    , Data.Array.Accelerate.Vulkan.Execute
+    , Data.Array.Accelerate.Vulkan.Type
+  other-modules:   Paths_accelerate_vulkan
+  autogen-modules:  Paths_accelerate_vulkan
+  hs-source-dirs:   src
+  ghc-prof-options: -caf-all -auto-all
+  ghc-options: -Wall -threaded -O2 
+  build-depends:
+    , accelerate            >=1.3    && <1.4
+    , accelerate-llvm       >=1.3    && <1.4
+    , atomic-primops        >=0.8
+    , base                  >=4.10   && <5
+    , bytestring            >=0.10.4
+    , cereal                >=0.4
+    , containers            >=0.5    && <0.7
+    , deepseq               >=1.4
+    , directory             >=1.0
+    , dlist                 >=0.6
+    , filepath              >=1.0
+    , formatting            >=7.0
+    , ghc
+    , hashable              >=1.0
+    , libffi                >=0.1
+    , llvm-hs               >=4.1    && <16
+    , llvm-hs-pure          >=4.1    && <16
+    , lockfree-queue        >=0.2
+    , microlens             >=0.4
+    , mtl                   >=2.2.1
+    , ordered-containers
+    , prettyprinter         >=1.7
+    , primitive             >=0.7
+    , process
+    , template-haskell
+    , text                  >=1.2
+    , th-lift-instances
+    , unique
+    , unordered-containers  >=0.2
+    , vector                >=0.11
+    -- required by Vulkan binding
+    , pretty-simple >=3.3
+    , vulkan >=3.26.1
+    , JuicyPixels
+    , VulkanMemoryAllocator
+    , autoapply >=0.4
+    , bytestring-conversion
+    , resourcet
+    , safe-exceptions
+    , say
+    , transformers
+    , vulkan-utils
+  default-language: Haskell2010
+
+executable accelerate-vulkan-exe
+  main-is:          Main.hs
+  other-modules:    Paths_accelerate_vulkan
+  autogen-modules:  Paths_accelerate_vulkan
+  hs-source-dirs:   app
+  ghc-options:
+      -Wall -O2
+      -threaded
+      -rtsopts
+      -with-rtsopts=-n4M
+      -with-rtsopts=-A64M
+      -with-rtsopts=-N
+  build-depends:
+    , accelerate-vulkan
+    , accelerate-llvm-native
+    , accelerate            >=1.3    && <1.4
+    , accelerate-llvm       >=1.3    && <1.4
+    , atomic-primops        >=0.8
+    , base                  >=4.10   && <5
+    , bytestring            >=0.10.4
+    , cereal                >=0.4
+    , containers            >=0.5    && <0.7
+    , deepseq               >=1.4
+    , directory             >=1.0
+    , dlist                 >=0.6
+    , filepath              >=1.0
+    , formatting            >=7.0
+    , ghc
+    , hashable              >=1.0
+    , libffi                >=0.1
+    , llvm-hs               >=4.1    && <16
+    , llvm-hs-pure          >=4.1    && <16
+    , lockfree-queue        >=0.2
+    , microlens             >=0.4
+    , mtl                   >=2.2.1
+    , ordered-containers
+    , prettyprinter         >=1.7
+    , primitive             >=0.7
+    , process
+    , template-haskell
+    , text                  >=1.2
+    , th-lift-instances
+    , unique
+    , unordered-containers  >=0.2
+    , vector                >=0.11
+    -- required by Vulkan binding
+    , pretty-simple >=3.3
+    , vulkan >=3.26.1
+    , JuicyPixels
+    , VulkanMemoryAllocator
+    , autoapply >=0.4
+    , bytestring-conversion
+    , resourcet
+    , safe-exceptions
+    , say
+    , transformers
+    , vulkan-utils
+  default-language: Haskell2010
