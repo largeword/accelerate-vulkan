@@ -1,0 +1,333 @@
+benchmarking GPU/n512, d64, m8
+time                 1.430 s    (967.3 ms .. 1.786 s)
+                     0.988 R²   (0.958 R² .. 1.000 R²)
+mean                 1.468 s    (1.403 s .. 1.555 s)
+std dev              94.05 ms   (15.01 ms .. 121.9 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n512, d64, m64
+time                 1.427 s    (1.245 s .. 1.603 s)
+                     0.998 R²   (0.992 R² .. 1.000 R²)
+mean                 1.418 s    (1.397 s .. 1.450 s)
+std dev              30.67 ms   (7.858 ms .. 40.58 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n512, d64, m512
+time                 818.3 ms   (688.3 ms .. 982.1 ms)
+                     0.995 R²   (0.985 R² .. 1.000 R²)
+mean                 798.6 ms   (763.7 ms .. 817.9 ms)
+std dev              33.57 ms   (7.429 ms .. 44.55 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n512, d64, m2048
+time                 200.7 ms   (184.9 ms .. 218.0 ms)
+                     0.996 R²   (0.985 R² .. 1.000 R²)
+mean                 187.3 ms   (175.6 ms .. 196.1 ms)
+std dev              13.50 ms   (10.40 ms .. 15.97 ms)
+variance introduced by outliers: 15% (moderately inflated)
+
+benchmarking GPU/n512, d64, m8192
+time                 50.53 ms   (46.74 ms .. 57.79 ms)
+                     0.972 R²   (0.929 R² .. 0.996 R²)
+mean                 50.55 ms   (49.08 ms .. 53.04 ms)
+std dev              3.467 ms   (2.088 ms .. 5.427 ms)
+variance introduced by outliers: 22% (moderately inflated)
+
+benchmarking GPU/n512, d64, m16384
+time                 25.36 ms   (22.90 ms .. 28.02 ms)
+                     0.966 R²   (0.935 R² .. 0.989 R²)
+mean                 27.06 ms   (25.75 ms .. 28.79 ms)
+std dev              3.200 ms   (2.532 ms .. 4.178 ms)
+variance introduced by outliers: 48% (moderately inflated)
+
+benchmarking GPU/n512, d128, m8
+time                 1.500 s    (1.363 s .. 1.684 s)
+                     0.998 R²   (0.994 R² .. 1.000 R²)
+mean                 1.536 s    (1.489 s .. 1.576 s)
+std dev              51.76 ms   (16.18 ms .. 68.91 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n512, d128, m64
+time                 1.544 s    (1.473 s .. 1.656 s)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 1.528 s    (1.486 s .. 1.551 s)
+std dev              40.03 ms   (10.79 ms .. 53.08 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n512, d128, m512
+time                 1.723 s    (1.443 s .. 2.217 s)
+                     0.991 R²   (0.978 R² .. 1.000 R²)
+mean                 1.561 s    (1.504 s .. 1.654 s)
+std dev              88.30 ms   (17.66 ms .. 112.9 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n512, d128, m2048
+time                 368.3 ms   (316.1 ms .. 452.4 ms)
+                     0.994 R²   (NaN R² .. 1.000 R²)
+mean                 411.3 ms   (391.9 ms .. 430.8 ms)
+std dev              23.63 ms   (8.310 ms .. 29.76 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n512, d128, m8192
+time                 94.74 ms   (91.47 ms .. 99.38 ms)
+                     0.997 R²   (0.989 R² .. 1.000 R²)
+mean                 95.59 ms   (93.96 ms .. 98.67 ms)
+std dev              3.321 ms   (476.7 μs .. 4.688 ms)
+
+benchmarking GPU/n512, d128, m16384
+time                 51.50 ms   (48.41 ms .. 56.41 ms)
+                     0.986 R²   (0.973 R² .. 0.996 R²)
+mean                 52.31 ms   (50.65 ms .. 54.23 ms)
+std dev              3.420 ms   (2.733 ms .. 4.327 ms)
+variance introduced by outliers: 22% (moderately inflated)
+
+benchmarking GPU/n1024, d64, m8
+time                 3.209 s    (3.027 s .. 3.560 s)
+                     0.998 R²   (0.997 R² .. 1.000 R²)
+mean                 3.048 s    (2.999 s .. 3.131 s)
+std dev              79.71 ms   (12.51 ms .. 101.9 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n1024, d64, m64
+time                 3.074 s    (2.961 s .. 3.251 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 3.096 s    (3.070 s .. 3.139 s)
+std dev              41.29 ms   (11.96 ms .. 55.25 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n1024, d64, m512
+time                 1.539 s    (1.479 s .. 1.649 s)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 1.527 s    (1.511 s .. 1.538 s)
+std dev              15.82 ms   (7.199 ms .. 20.45 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n1024, d64, m2048
+time                 393.9 ms   (380.0 ms .. 399.9 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 380.3 ms   (373.5 ms .. 385.1 ms)
+std dev              7.106 ms   (3.927 ms .. 8.968 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n1024, d64, m8192
+time                 103.0 ms   (98.82 ms .. 110.3 ms)
+                     0.987 R²   (0.953 R² .. 1.000 R²)
+mean                 100.4 ms   (97.90 ms .. 106.7 ms)
+std dev              6.138 ms   (2.308 ms .. 9.676 ms)
+variance introduced by outliers: 20% (moderately inflated)
+
+benchmarking GPU/n1024, d64, m16384
+time                 53.17 ms   (51.91 ms .. 55.24 ms)
+                     0.996 R²   (0.989 R² .. 0.999 R²)
+mean                 53.08 ms   (52.29 ms .. 54.26 ms)
+std dev              1.885 ms   (1.217 ms .. 2.577 ms)
+
+benchmarking GPU/n1024, d128, m8
+time                 3.664 s    (3.515 s .. 3.863 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 3.627 s    (3.604 s .. 3.656 s)
+std dev              29.34 ms   (14.66 ms .. 38.56 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n1024, d128, m64
+time                 3.961 s    (3.737 s .. 4.468 s)
+                     0.998 R²   (0.996 R² .. 1.000 R²)
+mean                 3.676 s    (3.564 s .. 3.821 s)
+std dev              143.6 ms   (60.54 ms .. 198.1 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n1024, d128, m512
+time                 3.646 s    (3.527 s .. 3.829 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 3.595 s    (3.573 s .. 3.622 s)
+std dev              30.34 ms   (564.3 μs .. 37.45 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n1024, d128, m2048
+time                 954.1 ms   (727.8 ms .. 1.138 s)
+                     0.994 R²   (0.976 R² .. 1.000 R²)
+mean                 932.1 ms   (904.1 ms .. 973.8 ms)
+std dev              40.39 ms   (4.789 ms .. 53.65 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n1024, d128, m8192
+time                 233.0 ms   (218.2 ms .. 251.4 ms)
+                     0.998 R²   (0.996 R² .. 1.000 R²)
+mean                 236.0 ms   (230.9 ms .. 241.0 ms)
+std dev              6.622 ms   (4.382 ms .. 8.215 ms)
+variance introduced by outliers: 16% (moderately inflated)
+
+benchmarking GPU/n1024, d128, m16384
+time                 128.8 ms   (127.0 ms .. 131.4 ms)
+                     1.000 R²   (0.998 R² .. 1.000 R²)
+mean                 127.8 ms   (125.6 ms .. 129.1 ms)
+std dev              2.462 ms   (1.031 ms .. 3.891 ms)
+variance introduced by outliers: 11% (moderately inflated)
+
+benchmarking GPU/n2048, d64, m8
+time                 7.088 s    (6.978 s .. 7.331 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 7.503 s    (7.306 s .. 7.821 s)
+std dev              301.1 ms   (4.158 ms .. 369.2 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n2048, d64, m64
+time                 7.106 s    (7.000 s .. 7.286 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 7.281 s    (7.194 s .. 7.346 s)
+std dev              92.63 ms   (55.65 ms .. 114.1 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n2048, d64, m512
+time                 3.905 s    (3.649 s .. 4.307 s)
+                     0.998 R²   (0.998 R² .. 1.000 R²)
+mean                 3.700 s    (3.633 s .. 3.806 s)
+std dev              100.1 ms   (6.393 ms .. 125.5 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n2048, d64, m2048
+time                 1.015 s    (898.4 ms .. 1.192 s)
+                     0.997 R²   (NaN R² .. 1.000 R²)
+mean                 949.0 ms   (916.8 ms .. 976.7 ms)
+std dev              37.15 ms   (11.67 ms .. 50.64 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n2048, d64, m8192
+time                 265.7 ms   (250.3 ms .. 279.4 ms)
+                     0.998 R²   (0.995 R² .. 1.000 R²)
+mean                 266.6 ms   (261.1 ms .. 269.1 ms)
+std dev              4.616 ms   (1.392 ms .. 6.326 ms)
+variance introduced by outliers: 16% (moderately inflated)
+
+benchmarking GPU/n2048, d64, m16384
+time                 148.1 ms   (117.0 ms .. 179.5 ms)
+                     0.948 R²   (0.780 R² .. 1.000 R²)
+mean                 154.2 ms   (146.3 ms .. 176.3 ms)
+std dev              18.92 ms   (2.194 ms .. 27.83 ms)
+variance introduced by outliers: 40% (moderately inflated)
+
+benchmarking GPU/n2048, d128, m8
+time                 10.02 s    (9.744 s .. 10.35 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 10.21 s    (10.10 s .. 10.39 s)
+std dev              169.8 ms   (556.6 μs .. 206.9 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n2048, d128, m64
+time                 10.04 s    (9.916 s .. 10.19 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 10.18 s    (10.11 s .. 10.29 s)
+std dev              103.8 ms   (32.40 ms .. 133.5 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n2048, d128, m512
+time                 10.86 s    (9.197 s .. 12.36 s)
+                     0.997 R²   (0.989 R² .. 1.000 R²)
+mean                 10.44 s    (10.08 s .. 10.79 s)
+std dev              403.4 ms   (146.4 ms .. 545.8 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n2048, d128, m2048
+time                 2.567 s    (2.400 s .. 2.702 s)
+                     1.000 R²   (0.998 R² .. 1.000 R²)
+mean                 2.600 s    (2.574 s .. 2.634 s)
+std dev              35.25 ms   (10.97 ms .. 48.01 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n2048, d128, m8192
+time                 628.8 ms   (604.4 ms .. 663.8 ms)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 665.3 ms   (647.9 ms .. 692.3 ms)
+std dev              26.22 ms   (1.668 ms .. 34.14 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n2048, d128, m16384
+time                 353.6 ms   (340.1 ms .. 381.5 ms)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 353.7 ms   (346.4 ms .. 359.1 ms)
+std dev              7.687 ms   (4.017 ms .. 10.74 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n4096, d64, m8
+time                 20.38 s    (20.21 s .. 20.75 s)
+                     1.000 R²   (NaN R² .. 1.000 R²)
+mean                 20.40 s    (20.31 s .. 20.48 s)
+std dev              96.34 ms   (51.19 ms .. 134.2 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n4096, d64, m64
+time                 20.73 s    (19.93 s .. 21.89 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 20.49 s    (20.37 s .. 20.64 s)
+std dev              167.4 ms   (55.91 ms .. 226.5 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n4096, d64, m512
+time                 10.33 s    (9.693 s .. 11.19 s)
+                     0.999 R²   (0.997 R² .. 1.000 R²)
+mean                 10.48 s    (10.37 s .. 10.68 s)
+std dev              196.2 ms   (11.65 ms .. 245.0 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n4096, d64, m2048
+time                 2.836 s    (2.714 s .. 2.969 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 2.782 s    (2.744 s .. 2.808 s)
+std dev              37.11 ms   (11.90 ms .. 49.40 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n4096, d64, m8192
+time                 736.2 ms   (671.2 ms .. 771.6 ms)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 747.1 ms   (738.2 ms .. 753.5 ms)
+std dev              8.972 ms   (4.703 ms .. 12.41 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n4096, d64, m16384
+time                 412.4 ms   (388.3 ms .. 426.4 ms)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 440.4 ms   (427.8 ms .. 455.5 ms)
+std dev              16.10 ms   (5.897 ms .. 22.22 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n4096, d128, m8
+time                 29.80 s    (29.17 s .. 31.33 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 29.70 s    (29.48 s .. 29.82 s)
+std dev              210.8 ms   (50.99 ms .. 277.4 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n4096, d128, m64
+time                 30.13 s    (29.13 s .. 31.44 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 29.87 s    (29.66 s .. 30.07 s)
+std dev              262.4 ms   (119.0 ms .. 359.8 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n4096, d128, m512
+time                 29.58 s    (28.98 s .. 30.28 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 29.58 s    (29.42 s .. 29.63 s)
+std dev              105.5 ms   (2.845 ms .. 127.1 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n4096, d128, m2048
+time                 7.659 s    (7.572 s .. 7.778 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 7.672 s    (7.644 s .. 7.690 s)
+std dev              29.06 ms   (12.76 ms .. 38.59 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n4096, d128, m8192
+time                 2.173 s    (1.994 s .. 2.406 s)
+                     0.999 R²   (0.996 R² .. 1.000 R²)
+mean                 2.102 s    (2.048 s .. 2.140 s)
+std dev              54.30 ms   (25.14 ms .. 70.87 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n4096, d128, m16384
+time                 1.121 s    (1.081 s .. 1.158 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 1.095 s    (1.086 s .. 1.106 s)
+std dev              12.90 ms   (5.230 ms .. 16.48 ms)
+variance introduced by outliers: 19% (moderately inflated)

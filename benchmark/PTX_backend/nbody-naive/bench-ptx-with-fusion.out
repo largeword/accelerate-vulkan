@@ -1,0 +1,55 @@
+benchmarking GPU/Scalar Z [500]
+time                 9.455 ms   (8.840 ms .. 10.03 ms)
+                     0.977 R²   (0.963 R² .. 0.987 R²)
+mean                 8.956 ms   (8.727 ms .. 9.254 ms)
+std dev              724.1 μs   (567.0 μs .. 899.7 μs)
+variance introduced by outliers: 45% (moderately inflated)
+
+benchmarking GPU/Scalar Z [1000]
+time                 9.189 ms   (8.441 ms .. 10.14 ms)
+                     0.957 R²   (0.923 R² .. 0.984 R²)
+mean                 9.549 ms   (9.258 ms .. 10.00 ms)
+std dev              972.9 μs   (680.8 μs .. 1.352 ms)
+variance introduced by outliers: 56% (severely inflated)
+
+benchmarking GPU/Scalar Z [1500]
+time                 9.078 ms   (8.592 ms .. 9.621 ms)
+                     0.974 R²   (0.953 R² .. 0.990 R²)
+mean                 9.544 ms   (9.285 ms .. 9.953 ms)
+std dev              905.7 μs   (660.9 μs .. 1.386 ms)
+variance introduced by outliers: 53% (severely inflated)
+
+benchmarking GPU/Scalar Z [2000]
+time                 9.153 ms   (8.810 ms .. 9.559 ms)
+                     0.987 R²   (0.977 R² .. 0.994 R²)
+mean                 9.336 ms   (9.125 ms .. 9.556 ms)
+std dev              584.4 μs   (476.2 μs .. 725.1 μs)
+variance introduced by outliers: 31% (moderately inflated)
+
+benchmarking GPU/Scalar Z [2500]
+time                 8.884 ms   (8.382 ms .. 9.661 ms)
+                     0.956 R²   (0.914 R² .. 0.984 R²)
+mean                 9.775 ms   (9.336 ms .. 10.31 ms)
+std dev              1.288 ms   (991.3 μs .. 1.597 ms)
+variance introduced by outliers: 70% (severely inflated)
+
+benchmarking GPU/Scalar Z [3000]
+time                 9.497 ms   (8.700 ms .. 10.61 ms)
+                     0.946 R²   (0.903 R² .. 0.978 R²)
+mean                 9.671 ms   (9.271 ms .. 10.27 ms)
+std dev              1.295 ms   (961.2 μs .. 1.997 ms)
+variance introduced by outliers: 70% (severely inflated)
+
+benchmarking GPU/Scalar Z [3500]
+time                 10.59 ms   (9.792 ms .. 11.39 ms)
+                     0.954 R²   (0.913 R² .. 0.986 R²)
+mean                 10.44 ms   (10.04 ms .. 11.00 ms)
+std dev              1.252 ms   (951.2 μs .. 1.734 ms)
+variance introduced by outliers: 62% (severely inflated)
+
+benchmarking GPU/Scalar Z [4000]
+time                 10.44 ms   (9.940 ms .. 11.21 ms)
+                     0.977 R²   (0.963 R² .. 0.990 R²)
+mean                 11.05 ms   (10.73 ms .. 11.49 ms)
+std dev              1.016 ms   (782.5 μs .. 1.467 ms)
+variance introduced by outliers: 50% (severely inflated)

@@ -1,0 +1,731 @@
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-1.lp solve solu /tmp/cbc1477345-2.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.04 seconds
+AccILPSolver: Cgl0002I 532 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 468 tightened bounds, 360 strengthened rows, 72 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 228 tightened bounds, 84 strengthened rows, 48 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 202 tightened bounds, 76 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 151 tightened bounds, 68 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 104 tightened bounds, 48 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 64 tightened bounds, 37 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 24 tightened bounds, 6 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 4 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 459 rows, 241 columns (241 integer (24 of which binary)) and 1110 elements
+AccILPSolver: Cbc0045I No integer variables out of 241 objects (241 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0012I Integer solution of 0 found by DiveCoefficient after 115 iterations and 0 nodes (0.10 seconds)
+AccILPSolver: Cbc0031I 45 added rows had average density of 2
+AccILPSolver: Cbc0013I At root node, 45 cuts changed objective from 0 to 0 in 3 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 54 row cuts average 2.1 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 16 row cuts average 2.4 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 19 row cuts average 2.4 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 9 row cuts average 2.7 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 115 iterations and 0 nodes (0.10 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 3 times and created 54 cuts of which 0 were active after adding rounds of cuts (0.002 seconds)
+AccILPSolver: Gomory was tried 3 times and created 16 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 3 times and created 19 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: ZeroHalf was tried 3 times and created 9 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               115
+AccILPSolver: Time (CPU seconds):             0.11
+AccILPSolver: Time (Wallclock seconds):       0.12
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.13   (Wallclock seconds):       0.15
+AccILPSolver: 
+benchmarking CPU/n=128, iter=4
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-3.lp solve solu /tmp/cbc1477345-4.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.00 seconds
+AccILPSolver: Cgl0002I 12 variables fixed
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               0
+AccILPSolver: Time (CPU seconds):             0.00
+AccILPSolver: Time (Wallclock seconds):       0.00
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.01   (Wallclock seconds):       0.01
+AccILPSolver: 
+time                 173.4 ms   (-1.006 s .. 1.141 s)
+                     0.157 R²   (0.003 R² .. 1.000 R²)
+mean                 1.234 s    (743.3 ms .. 2.150 s)
+std dev              891.9 ms   (60.22 ms .. 1.083 s)
+variance introduced by outliers: 75% (severely inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-5.lp solve solu /tmp/cbc1477345-6.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.04 seconds
+AccILPSolver: Cgl0002I 532 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 468 tightened bounds, 360 strengthened rows, 72 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 228 tightened bounds, 84 strengthened rows, 48 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 202 tightened bounds, 76 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 151 tightened bounds, 68 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 104 tightened bounds, 48 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 64 tightened bounds, 37 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 24 tightened bounds, 6 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 4 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 459 rows, 241 columns (241 integer (24 of which binary)) and 1110 elements
+AccILPSolver: Cbc0045I No integer variables out of 241 objects (241 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0012I Integer solution of 0 found by DiveCoefficient after 115 iterations and 0 nodes (0.10 seconds)
+AccILPSolver: Cbc0031I 45 added rows had average density of 2
+AccILPSolver: Cbc0013I At root node, 45 cuts changed objective from 0 to 0 in 3 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 54 row cuts average 2.1 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 16 row cuts average 2.4 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 19 row cuts average 2.4 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 9 row cuts average 2.7 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 115 iterations and 0 nodes (0.10 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 3 times and created 54 cuts of which 0 were active after adding rounds of cuts (0.002 seconds)
+AccILPSolver: Gomory was tried 3 times and created 16 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 3 times and created 19 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: ZeroHalf was tried 3 times and created 9 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               115
+AccILPSolver: Time (CPU seconds):             0.11
+AccILPSolver: Time (Wallclock seconds):       0.12
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.13   (Wallclock seconds):       0.15
+AccILPSolver: 
+benchmarking CPU/n=128, iter=8
+time                 1.185 s    (747.3 ms .. 1.397 s)
+                     0.983 R²   (0.960 R² .. 1.000 R²)
+mean                 1.527 s    (1.369 s .. 1.840 s)
+std dev              312.8 ms   (1.199 ms .. 363.7 ms)
+variance introduced by outliers: 48% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-7.lp solve solu /tmp/cbc1477345-8.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.04 seconds
+AccILPSolver: Cgl0002I 532 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 468 tightened bounds, 360 strengthened rows, 72 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 228 tightened bounds, 84 strengthened rows, 48 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 202 tightened bounds, 76 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 151 tightened bounds, 68 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 104 tightened bounds, 48 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 64 tightened bounds, 37 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 24 tightened bounds, 6 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 4 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 459 rows, 241 columns (241 integer (24 of which binary)) and 1110 elements
+AccILPSolver: Cbc0045I No integer variables out of 241 objects (241 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0012I Integer solution of 0 found by DiveCoefficient after 115 iterations and 0 nodes (0.10 seconds)
+AccILPSolver: Cbc0031I 45 added rows had average density of 2
+AccILPSolver: Cbc0013I At root node, 45 cuts changed objective from 0 to 0 in 3 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 54 row cuts average 2.1 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 16 row cuts average 2.4 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 19 row cuts average 2.4 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 9 row cuts average 2.7 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 115 iterations and 0 nodes (0.10 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 3 times and created 54 cuts of which 0 were active after adding rounds of cuts (0.002 seconds)
+AccILPSolver: Gomory was tried 3 times and created 16 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 3 times and created 19 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: ZeroHalf was tried 3 times and created 9 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               115
+AccILPSolver: Time (CPU seconds):             0.11
+AccILPSolver: Time (Wallclock seconds):       0.12
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.14   (Wallclock seconds):       0.15
+AccILPSolver: 
+benchmarking CPU/n=128, iter=16
+time                 2.422 s    (1.548 s .. 2.830 s)
+                     0.984 R²   (0.961 R² .. 1.000 R²)
+mean                 2.889 s    (2.618 s .. 3.393 s)
+std dev              493.5 ms   (30.84 ms .. 600.0 ms)
+variance introduced by outliers: 47% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-9.lp solve solu /tmp/cbc1477345-10.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.04 seconds
+AccILPSolver: Cgl0002I 532 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 468 tightened bounds, 360 strengthened rows, 72 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 228 tightened bounds, 84 strengthened rows, 48 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 202 tightened bounds, 76 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 151 tightened bounds, 68 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 104 tightened bounds, 48 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 64 tightened bounds, 37 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 24 tightened bounds, 6 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 4 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 459 rows, 241 columns (241 integer (24 of which binary)) and 1110 elements
+AccILPSolver: Cbc0045I No integer variables out of 241 objects (241 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0012I Integer solution of 0 found by DiveCoefficient after 115 iterations and 0 nodes (0.09 seconds)
+AccILPSolver: Cbc0031I 45 added rows had average density of 2
+AccILPSolver: Cbc0013I At root node, 45 cuts changed objective from 0 to 0 in 3 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 54 row cuts average 2.1 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 16 row cuts average 2.4 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 19 row cuts average 2.4 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 9 row cuts average 2.7 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 115 iterations and 0 nodes (0.09 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 3 times and created 54 cuts of which 0 were active after adding rounds of cuts (0.002 seconds)
+AccILPSolver: Gomory was tried 3 times and created 16 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 3 times and created 19 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: ZeroHalf was tried 3 times and created 9 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               115
+AccILPSolver: Time (CPU seconds):             0.10
+AccILPSolver: Time (Wallclock seconds):       0.12
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.13   (Wallclock seconds):       0.15
+AccILPSolver: 
+benchmarking CPU/n=128, iter=32
+time                 5.158 s    (5.052 s .. 5.255 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 5.367 s    (5.278 s .. 5.523 s)
+std dev              151.0 ms   (12.75 ms .. 191.8 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-11.lp solve solu /tmp/cbc1477345-12.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.04 seconds
+AccILPSolver: Cgl0002I 532 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 468 tightened bounds, 360 strengthened rows, 72 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 228 tightened bounds, 84 strengthened rows, 48 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 202 tightened bounds, 76 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 151 tightened bounds, 68 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 104 tightened bounds, 48 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 64 tightened bounds, 37 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 24 tightened bounds, 6 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 4 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 459 rows, 241 columns (241 integer (24 of which binary)) and 1110 elements
+AccILPSolver: Cbc0045I No integer variables out of 241 objects (241 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0012I Integer solution of 0 found by DiveCoefficient after 115 iterations and 0 nodes (0.10 seconds)
+AccILPSolver: Cbc0031I 45 added rows had average density of 2
+AccILPSolver: Cbc0013I At root node, 45 cuts changed objective from 0 to 0 in 3 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 54 row cuts average 2.1 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 16 row cuts average 2.4 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 19 row cuts average 2.4 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 9 row cuts average 2.7 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 115 iterations and 0 nodes (0.10 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 3 times and created 54 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: Gomory was tried 3 times and created 16 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 3 times and created 19 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 3 times and created 9 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               115
+AccILPSolver: Time (CPU seconds):             0.11
+AccILPSolver: Time (Wallclock seconds):       0.12
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.14   (Wallclock seconds):       0.15
+AccILPSolver: 
+benchmarking CPU/n=128, iter=64
+time                 10.39 s    (NaN s .. 10.66 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 10.78 s    (10.60 s .. 11.13 s)
+std dev              342.5 ms   (8.128 ms .. 406.0 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-13.lp solve solu /tmp/cbc1477345-14.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.04 seconds
+AccILPSolver: Cgl0002I 532 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 468 tightened bounds, 360 strengthened rows, 72 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 228 tightened bounds, 84 strengthened rows, 48 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 202 tightened bounds, 76 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 151 tightened bounds, 68 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 104 tightened bounds, 48 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 64 tightened bounds, 37 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 24 tightened bounds, 6 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 4 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 459 rows, 241 columns (241 integer (24 of which binary)) and 1110 elements
+AccILPSolver: Cbc0045I No integer variables out of 241 objects (241 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0012I Integer solution of 0 found by DiveCoefficient after 115 iterations and 0 nodes (0.10 seconds)
+AccILPSolver: Cbc0031I 45 added rows had average density of 2
+AccILPSolver: Cbc0013I At root node, 45 cuts changed objective from 0 to 0 in 3 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 54 row cuts average 2.1 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 16 row cuts average 2.4 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 19 row cuts average 2.4 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 9 row cuts average 2.7 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 115 iterations and 0 nodes (0.10 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 3 times and created 54 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: Gomory was tried 3 times and created 16 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 3 times and created 19 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 3 times and created 9 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               115
+AccILPSolver: Time (CPU seconds):             0.11
+AccILPSolver: Time (Wallclock seconds):       0.13
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.14   (Wallclock seconds):       0.15
+AccILPSolver: 
+benchmarking CPU/n=128, iter=128
+time                 20.86 s    (20.15 s .. 21.64 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 20.82 s    (20.66 s .. 20.88 s)
+std dev              118.3 ms   (3.135 ms .. 145.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-15.lp solve solu /tmp/cbc1477345-16.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 600 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 551 tightened bounds, 420 strengthened rows, 84 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 314 tightened bounds, 103 strengthened rows, 56 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 263 tightened bounds, 91 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 245 tightened bounds, 87 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 178 tightened bounds, 66 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 133 tightened bounds, 60 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 88 tightened bounds, 52 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 81 tightened bounds, 43 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 38 tightened bounds, 32 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 529 rows, 277 columns (277 integer (28 of which binary)) and 1282 elements
+AccILPSolver: Cbc0045I No integer variables out of 277 objects (277 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0012I Integer solution of 0 found by DiveCoefficient after 146 iterations and 0 nodes (0.14 seconds)
+AccILPSolver: Cbc0031I 51 added rows had average density of 2
+AccILPSolver: Cbc0013I At root node, 51 cuts changed objective from 0 to 0 in 3 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 68 row cuts average 2.2 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 26 row cuts average 2.7 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 6 row cuts average 3.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 29 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 14 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 146 iterations and 0 nodes (0.14 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 3 times and created 68 cuts of which 0 were active after adding rounds of cuts (0.002 seconds)
+AccILPSolver: Gomory was tried 3 times and created 26 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 3 times and created 6 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: TwoMirCuts was tried 3 times and created 29 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: ZeroHalf was tried 3 times and created 14 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               146
+AccILPSolver: Time (CPU seconds):             0.15
+AccILPSolver: Time (Wallclock seconds):       0.16
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.18   (Wallclock seconds):       0.19
+AccILPSolver: 
+benchmarking CPU/n=256, iter=4
+time                 1.487 s    (537.6 ms .. 2.572 s)
+                     0.914 R²   (0.893 R² .. 1.000 R²)
+mean                 2.375 s    (1.927 s .. 3.203 s)
+std dev              811.9 ms   (23.81 ms .. 1.009 s)
+variance introduced by outliers: 73% (severely inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-17.lp solve solu /tmp/cbc1477345-18.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 600 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 551 tightened bounds, 420 strengthened rows, 84 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 314 tightened bounds, 103 strengthened rows, 56 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 263 tightened bounds, 91 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 245 tightened bounds, 87 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 178 tightened bounds, 66 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 133 tightened bounds, 60 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 88 tightened bounds, 52 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 81 tightened bounds, 43 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 38 tightened bounds, 32 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 529 rows, 277 columns (277 integer (28 of which binary)) and 1282 elements
+AccILPSolver: Cbc0045I No integer variables out of 277 objects (277 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0012I Integer solution of 0 found by DiveCoefficient after 146 iterations and 0 nodes (0.13 seconds)
+AccILPSolver: Cbc0031I 51 added rows had average density of 2
+AccILPSolver: Cbc0013I At root node, 51 cuts changed objective from 0 to 0 in 3 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 68 row cuts average 2.2 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 26 row cuts average 2.7 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 6 row cuts average 3.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 29 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 14 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 146 iterations and 0 nodes (0.13 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 3 times and created 68 cuts of which 0 were active after adding rounds of cuts (0.002 seconds)
+AccILPSolver: Gomory was tried 3 times and created 26 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 3 times and created 6 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: TwoMirCuts was tried 3 times and created 29 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: ZeroHalf was tried 3 times and created 14 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               146
+AccILPSolver: Time (CPU seconds):             0.15
+AccILPSolver: Time (Wallclock seconds):       0.16
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.18   (Wallclock seconds):       0.19
+AccILPSolver: 
+benchmarking CPU/n=256, iter=8
+time                 3.279 s    (1.987 s .. 3.935 s)
+                     0.982 R²   (0.949 R² .. 1.000 R²)
+mean                 4.055 s    (3.652 s .. 4.833 s)
+std dev              769.8 ms   (1.780 ms .. 929.6 ms)
+variance introduced by outliers: 47% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-19.lp solve solu /tmp/cbc1477345-20.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 600 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 551 tightened bounds, 420 strengthened rows, 84 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 314 tightened bounds, 103 strengthened rows, 56 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 263 tightened bounds, 91 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 245 tightened bounds, 87 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 178 tightened bounds, 66 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 133 tightened bounds, 60 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 88 tightened bounds, 52 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 81 tightened bounds, 43 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 38 tightened bounds, 32 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 529 rows, 277 columns (277 integer (28 of which binary)) and 1282 elements
+AccILPSolver: Cbc0045I No integer variables out of 277 objects (277 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0012I Integer solution of 0 found by DiveCoefficient after 146 iterations and 0 nodes (0.13 seconds)
+AccILPSolver: Cbc0031I 51 added rows had average density of 2
+AccILPSolver: Cbc0013I At root node, 51 cuts changed objective from 0 to 0 in 3 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 68 row cuts average 2.2 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 26 row cuts average 2.7 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 6 row cuts average 3.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 29 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 14 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 146 iterations and 0 nodes (0.13 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 3 times and created 68 cuts of which 0 were active after adding rounds of cuts (0.002 seconds)
+AccILPSolver: Gomory was tried 3 times and created 26 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 3 times and created 6 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: TwoMirCuts was tried 3 times and created 29 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: ZeroHalf was tried 3 times and created 14 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               146
+AccILPSolver: Time (CPU seconds):             0.14
+AccILPSolver: Time (Wallclock seconds):       0.16
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.17   (Wallclock seconds):       0.19
+AccILPSolver: 
+benchmarking CPU/n=256, iter=16
+time                 7.103 s    (6.658 s .. 8.132 s)
+                     0.997 R²   (0.995 R² .. 1.000 R²)
+mean                 7.497 s    (7.257 s .. 7.911 s)
+std dev              409.5 ms   (121.3 ms .. 547.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-21.lp solve solu /tmp/cbc1477345-22.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 600 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 551 tightened bounds, 420 strengthened rows, 84 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 314 tightened bounds, 103 strengthened rows, 56 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 263 tightened bounds, 91 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 245 tightened bounds, 87 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 178 tightened bounds, 66 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 133 tightened bounds, 60 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 88 tightened bounds, 52 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 81 tightened bounds, 43 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 38 tightened bounds, 32 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 529 rows, 277 columns (277 integer (28 of which binary)) and 1282 elements
+AccILPSolver: Cbc0045I No integer variables out of 277 objects (277 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0012I Integer solution of 0 found by DiveCoefficient after 146 iterations and 0 nodes (0.13 seconds)
+AccILPSolver: Cbc0031I 51 added rows had average density of 2
+AccILPSolver: Cbc0013I At root node, 51 cuts changed objective from 0 to 0 in 3 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 68 row cuts average 2.2 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 26 row cuts average 2.7 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 6 row cuts average 3.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 29 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 14 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 146 iterations and 0 nodes (0.13 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 3 times and created 68 cuts of which 0 were active after adding rounds of cuts (0.002 seconds)
+AccILPSolver: Gomory was tried 3 times and created 26 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 3 times and created 6 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: TwoMirCuts was tried 3 times and created 29 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: ZeroHalf was tried 3 times and created 14 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               146
+AccILPSolver: Time (CPU seconds):             0.15
+AccILPSolver: Time (Wallclock seconds):       0.16
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.18   (Wallclock seconds):       0.19
+AccILPSolver: 
+benchmarking CPU/n=256, iter=32
+time                 13.72 s    (13.38 s .. 14.00 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 13.87 s    (13.79 s .. 13.92 s)
+std dev              81.82 ms   (23.62 ms .. 110.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-23.lp solve solu /tmp/cbc1477345-24.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 600 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 551 tightened bounds, 420 strengthened rows, 84 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 314 tightened bounds, 103 strengthened rows, 56 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 263 tightened bounds, 91 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 245 tightened bounds, 87 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 178 tightened bounds, 66 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 133 tightened bounds, 60 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 88 tightened bounds, 52 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 81 tightened bounds, 43 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 38 tightened bounds, 32 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 529 rows, 277 columns (277 integer (28 of which binary)) and 1282 elements
+AccILPSolver: Cbc0045I No integer variables out of 277 objects (277 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0012I Integer solution of 0 found by DiveCoefficient after 146 iterations and 0 nodes (0.12 seconds)
+AccILPSolver: Cbc0031I 51 added rows had average density of 2
+AccILPSolver: Cbc0013I At root node, 51 cuts changed objective from 0 to 0 in 3 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 68 row cuts average 2.2 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 26 row cuts average 2.7 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 6 row cuts average 3.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 29 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 14 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 146 iterations and 0 nodes (0.12 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 3 times and created 68 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: Gomory was tried 3 times and created 26 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 3 times and created 6 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 3 times and created 29 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: ZeroHalf was tried 3 times and created 14 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               146
+AccILPSolver: Time (CPU seconds):             0.13
+AccILPSolver: Time (Wallclock seconds):       0.16
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.16   (Wallclock seconds):       0.19
+AccILPSolver: 
+benchmarking CPU/n=256, iter=64
+time                 27.08 s    (26.57 s .. 27.78 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 27.14 s    (26.99 s .. 27.25 s)
+std dev              142.0 ms   (94.46 ms .. 173.6 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc1477345-25.lp solve solu /tmp/cbc1477345-26.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 600 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 551 tightened bounds, 420 strengthened rows, 84 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 314 tightened bounds, 103 strengthened rows, 56 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 263 tightened bounds, 91 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 245 tightened bounds, 87 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 178 tightened bounds, 66 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 133 tightened bounds, 60 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 88 tightened bounds, 52 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 81 tightened bounds, 43 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 38 tightened bounds, 32 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 529 rows, 277 columns (277 integer (28 of which binary)) and 1282 elements
+AccILPSolver: Cbc0045I No integer variables out of 277 objects (277 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0012I Integer solution of 0 found by DiveCoefficient after 146 iterations and 0 nodes (0.15 seconds)
+AccILPSolver: Cbc0031I 51 added rows had average density of 2
+AccILPSolver: Cbc0013I At root node, 51 cuts changed objective from 0 to 0 in 3 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 68 row cuts average 2.2 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 26 row cuts average 2.7 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 6 row cuts average 3.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 29 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 14 row cuts average 2.6 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 146 iterations and 0 nodes (0.15 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 3 times and created 68 cuts of which 0 were active after adding rounds of cuts (0.002 seconds)
+AccILPSolver: Gomory was tried 3 times and created 26 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 3 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 3 times and created 6 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: TwoMirCuts was tried 3 times and created 29 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: ZeroHalf was tried 3 times and created 14 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               146
+AccILPSolver: Time (CPU seconds):             0.16
+AccILPSolver: Time (Wallclock seconds):       0.16
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.19   (Wallclock seconds):       0.19
+AccILPSolver: 
+benchmarking CPU/n=256, iter=128
+time                 52.48 s    (50.82 s .. 53.40 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 52.22 s    (51.67 s .. 52.43 s)
+std dev              380.0 ms   (83.66 ms .. 494.0 ms)
+variance introduced by outliers: 19% (moderately inflated)
+

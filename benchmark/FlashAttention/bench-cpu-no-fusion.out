@@ -1,0 +1,419 @@
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc2555019-1.lp solve solu /tmp/cbc2555019-2.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 402 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 76 tightened bounds, 555 strengthened rows, 6 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 32 tightened bounds, 539 strengthened rows, 4 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 3 tightened bounds, 446 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 0 tightened bounds, 375 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 0 tightened bounds, 225 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 0 tightened bounds, 173 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 0 tightened bounds, 50 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 0 tightened bounds, 29 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 0 tightened bounds, 14 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 645 rows, 342 columns (342 integer (144 of which binary)) and 3277 elements
+AccILPSolver: Cbc0045I No integer variables out of 342 objects (342 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0038I Initial state - 88 integers unsatisfied sum - 20.2971
+AccILPSolver: Cbc0038I Pass   1: suminf.    0.00000 (0) obj. 0 iterations 141
+AccILPSolver: Cbc0038I Solution found of 0
+AccILPSolver: Cbc0038I Cleaned solution of 0
+AccILPSolver: Cbc0038I Before mini branch and bound, 160 integers at bound fixed and 0 continuous of which 9 were internal integer and 0 internal continuous
+AccILPSolver: Cbc0038I Mini branch and bound did not improve solution (0.14 seconds)
+AccILPSolver: Cbc0038I After 0.14 seconds - Feasibility pump exiting with objective of 0 - took 0.01 seconds
+AccILPSolver: Cbc0012I Integer solution of 0 found by feasibility pump after 0 iterations and 0 nodes (0.14 seconds)
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 0 iterations and 0 nodes (0.14 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               0
+AccILPSolver: Time (CPU seconds):             0.15
+AccILPSolver: Time (Wallclock seconds):       0.16
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.18   (Wallclock seconds):       0.18
+AccILPSolver: 
+benchmarking CPU/n512, d64, m8
+time                 6.771 s    (6.047 s .. 7.640 s)
+                     0.998 R²   (NaN R² .. 1.000 R²)
+mean                 6.643 s    (6.361 s .. 6.815 s)
+std dev              284.4 ms   (123.5 ms .. 397.0 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d64, m64
+time                 7.029 s    (5.824 s .. 8.242 s)
+                     0.996 R²   (NaN R² .. 1.000 R²)
+mean                 6.679 s    (6.436 s .. 6.933 s)
+std dev              311.9 ms   (134.0 ms .. 405.5 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d64, m512
+time                 3.284 s    (3.073 s .. 3.720 s)
+                     0.998 R²   (0.996 R² .. 1.000 R²)
+mean                 3.242 s    (3.171 s .. 3.306 s)
+std dev              74.80 ms   (62.12 ms .. 82.59 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d64, m2048
+time                 914.4 ms   (865.3 ms .. 1.007 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 1.153 s    (1.042 s .. 1.329 s)
+std dev              167.0 ms   (5.883 ms .. 206.6 ms)
+variance introduced by outliers: 24% (moderately inflated)
+
+benchmarking CPU/n512, d64, m8192
+time                 606.2 ms   (441.7 ms .. 730.0 ms)
+                     0.992 R²   (0.971 R² .. 1.000 R²)
+mean                 587.7 ms   (548.2 ms .. 610.1 ms)
+std dev              38.88 ms   (10.92 ms .. 51.91 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d64, m16384
+time                 484.8 ms   (207.2 ms .. 788.8 ms)
+                     0.933 R²   (0.919 R² .. 1.000 R²)
+mean                 439.4 ms   (376.8 ms .. 497.5 ms)
+std dev              74.10 ms   (57.63 ms .. 87.71 ms)
+variance introduced by outliers: 47% (moderately inflated)
+
+benchmarking CPU/n512, d128, m8
+time                 8.847 s    (8.747 s .. 9.028 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 8.668 s    (8.576 s .. 8.736 s)
+std dev              94.47 ms   (48.82 ms .. 130.8 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d128, m64
+time                 8.891 s    (8.379 s .. 10.10 s)
+                     0.998 R²   (0.995 R² .. 1.000 R²)
+mean                 8.614 s    (8.506 s .. 8.789 s)
+std dev              176.9 ms   (55.84 ms .. 238.1 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d128, m512
+time                 9.010 s    (7.809 s .. 10.25 s)
+                     0.998 R²   (0.991 R² .. 1.000 R²)
+mean                 8.373 s    (7.786 s .. 8.628 s)
+std dev              438.1 ms   (148.4 ms .. 588.0 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d128, m2048
+time                 2.435 s    (2.128 s .. 2.572 s)
+                     0.998 R²   (0.996 R² .. 1.000 R²)
+mean                 2.644 s    (2.539 s .. 2.718 s)
+std dev              108.2 ms   (52.50 ms .. 151.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d128, m8192
+time                 1.237 s    (977.0 ms .. 1.646 s)
+                     0.988 R²   (0.969 R² .. 1.000 R²)
+mean                 1.190 s    (1.136 s .. 1.226 s)
+std dev              54.57 ms   (23.75 ms .. 76.18 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d128, m16384
+time                 680.5 ms   (264.0 ms .. 1.287 s)
+                     0.919 R²   (NaN R² .. 1.000 R²)
+mean                 788.5 ms   (643.4 ms .. 912.9 ms)
+std dev              157.9 ms   (69.46 ms .. 207.2 ms)
+variance introduced by outliers: 48% (moderately inflated)
+
+benchmarking CPU/n1024, d64, m8
+time                 18.06 s    (16.93 s .. 18.92 s)
+                     1.000 R²   (0.998 R² .. 1.000 R²)
+mean                 17.87 s    (17.49 s .. 18.01 s)
+std dev              257.3 ms   (10.64 ms .. 320.5 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d64, m64
+time                 18.13 s    (16.61 s .. 19.39 s)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 17.80 s    (16.98 s .. 18.12 s)
+std dev              580.5 ms   (25.33 ms .. 723.0 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d64, m512
+time                 11.16 s    (9.822 s .. 13.02 s)
+                     0.997 R²   (0.990 R² .. 1.000 R²)
+mean                 10.61 s    (10.26 s .. 10.92 s)
+std dev              428.7 ms   (232.8 ms .. 559.8 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d64, m2048
+time                 3.368 s    (1.823 s .. 4.400 s)
+                     0.970 R²   (0.943 R² .. 1.000 R²)
+mean                 3.236 s    (2.838 s .. 3.537 s)
+std dev              403.7 ms   (189.4 ms .. 537.9 ms)
+variance introduced by outliers: 23% (moderately inflated)
+
+benchmarking CPU/n1024, d64, m8192
+time                 1.426 s    (941.7 ms .. 1.799 s)
+                     0.987 R²   (0.953 R² .. 1.000 R²)
+mean                 1.502 s    (1.413 s .. 1.566 s)
+std dev              91.94 ms   (51.48 ms .. 128.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d64, m16384
+time                 703.6 ms   (103.6 ms .. 1.526 s)
+                     0.826 R²   (0.759 R² .. 1.000 R²)
+mean                 1.049 s    (810.3 ms .. 1.457 s)
+std dev              393.0 ms   (54.69 ms .. 502.7 ms)
+variance introduced by outliers: 73% (severely inflated)
+
+benchmarking CPU/n1024, d128, m8
+time                 27.76 s    (26.52 s .. 28.43 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 26.33 s    (24.78 s .. 26.91 s)
+std dev              1.068 s    (73.44 ms .. 1.344 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d128, m64
+time                 28.75 s    (23.44 s .. 33.02 s)
+                     0.996 R²   (0.986 R² .. 1.000 R²)
+mean                 26.65 s    (24.86 s .. 27.94 s)
+std dev              1.780 s    (643.5 ms .. 2.442 s)
+variance introduced by outliers: 20% (moderately inflated)
+
+benchmarking CPU/n1024, d128, m512
+time                 28.04 s    (25.94 s .. 29.03 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 28.53 s    (27.96 s .. 29.37 s)
+std dev              816.1 ms   (201.2 ms .. 1.087 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d128, m2048
+time                 7.719 s    (7.577 s .. 7.951 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 8.378 s    (8.094 s .. 8.781 s)
+std dev              385.9 ms   (128.8 ms .. 507.9 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d128, m8192
+time                 2.838 s    (2.067 s .. 3.205 s)
+                     0.991 R²   (0.977 R² .. 1.000 R²)
+mean                 2.969 s    (2.767 s .. 3.234 s)
+std dev              273.7 ms   (95.35 ms .. 371.5 ms)
+variance introduced by outliers: 22% (moderately inflated)
+
+benchmarking CPU/n1024, d128, m16384
+time                 2.166 s    (1.090 s .. 3.263 s)
+                     0.952 R²   (0.946 R² .. 1.000 R²)
+mean                 2.191 s    (1.915 s .. 2.475 s)
+std dev              352.6 ms   (162.6 ms .. 449.2 ms)
+variance introduced by outliers: 46% (moderately inflated)
+
+benchmarking CPU/n2048, d64, m8
+time                 63.15 s    (55.97 s .. 68.21 s)
+                     0.998 R²   (0.997 R² .. 1.000 R²)
+mean                 63.95 s    (62.56 s .. 65.14 s)
+std dev              1.501 s    (1.222 s .. 1.658 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d64, m64
+time                 67.63 s    (54.03 s .. 79.03 s)
+                     0.995 R²   (NaN R² .. 1.000 R²)
+mean                 63.56 s    (59.96 s .. 66.30 s)
+std dev              3.746 s    (1.752 s .. 5.173 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d64, m512
+time                 32.36 s    (24.81 s .. 42.37 s)
+                     0.989 R²   (0.967 R² .. 1.000 R²)
+mean                 32.18 s    (30.04 s .. 32.95 s)
+std dev              1.440 s    (124.6 ms .. 1.780 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d64, m2048
+time                 10.57 s    (9.772 s .. 11.15 s)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 10.97 s    (10.69 s .. 11.08 s)
+std dev              197.1 ms   (18.05 ms .. 249.3 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d64, m8192
+time                 3.802 s    (1.605 s .. 5.250 s)
+                     0.964 R²   (0.876 R² .. 1.000 R²)
+mean                 3.952 s    (3.382 s .. 4.578 s)
+std dev              653.5 ms   (341.8 ms .. 920.8 ms)
+variance introduced by outliers: 46% (moderately inflated)
+
+benchmarking CPU/n2048, d64, m16384
+time                 2.276 s    (824.7 ms .. 5.457 s)
+                     0.810 R²   (0.712 R² .. 1.000 R²)
+mean                 3.170 s    (2.511 s .. 4.211 s)
+std dev              1.059 s    (337.2 ms .. 1.438 s)
+variance introduced by outliers: 73% (severely inflated)
+
+benchmarking CPU/n2048, d128, m8
+time                 88.03 s    (78.72 s .. 95.70 s)
+                     0.999 R²   (0.995 R² .. 1.000 R²)
+mean                 88.52 s    (87.63 s .. 89.91 s)
+std dev              1.319 s    (161.0 ms .. 1.687 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d128, m64
+time                 89.53 s    (73.46 s .. 110.8 s)
+                     0.994 R²   (0.980 R² .. 1.000 R²)
+mean                 86.11 s    (76.39 s .. 90.42 s)
+std dev              7.150 s    (3.141 s .. 9.937 s)
+variance introduced by outliers: 21% (moderately inflated)
+
+benchmarking CPU/n2048, d128, m512
+time                 84.10 s    (79.02 s .. 93.52 s)
+                     0.999 R²   (NaN R² .. 1.000 R²)
+mean                 89.04 s    (86.88 s .. 91.20 s)
+std dev              2.649 s    (1.385 s .. 3.387 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d128, m2048
+time                 23.79 s    (22.00 s .. 27.83 s)
+                     0.996 R²   (0.994 R² .. 1.000 R²)
+mean                 25.58 s    (24.32 s .. 27.41 s)
+std dev              1.810 s    (19.60 ms .. 2.384 s)
+variance introduced by outliers: 20% (moderately inflated)
+
+benchmarking CPU/n2048, d128, m8192
+time                 8.216 s    (3.071 s .. 10.99 s)
+                     0.957 R²   (0.863 R² .. 1.000 R²)
+mean                 7.865 s    (6.571 s .. 8.640 s)
+std dev              1.291 s    (588.6 ms .. 1.789 s)
+variance introduced by outliers: 46% (moderately inflated)
+
+benchmarking CPU/n2048, d128, m16384
+time                 5.559 s    (1.502 s .. 7.303 s)
+                     0.939 R²   (0.822 R² .. 1.000 R²)
+mean                 6.383 s    (5.312 s .. 7.956 s)
+std dev              1.522 s    (379.2 ms .. 2.036 s)
+variance introduced by outliers: 48% (moderately inflated)
+
+benchmarking CPU/n4096, d64, m8
+time                 240.6 s    (197.2 s .. 312.0 s)
+                     0.990 R²   (0.975 R² .. 1.000 R²)
+mean                 229.2 s    (195.3 s .. 243.8 s)
+std dev              24.44 s    (9.420 s .. 33.69 s)
+variance introduced by outliers: 23% (moderately inflated)
+
+benchmarking CPU/n4096, d64, m64
+time                 255.7 s    (230.2 s .. 296.9 s)
+                     0.997 R²   (0.992 R² .. 1.000 R²)
+mean                 236.2 s    (227.2 s .. 246.0 s)
+std dev              10.59 s    (5.041 s .. 14.85 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d64, m512
+time                 127.7 s    (98.45 s .. 152.2 s)
+                     0.994 R²   (0.978 R² .. 1.000 R²)
+mean                 113.5 s    (101.9 s .. 119.7 s)
+std dev              11.06 s    (4.189 s .. 14.21 s)
+variance introduced by outliers: 22% (moderately inflated)
+
+benchmarking CPU/n4096, d64, m2048
+time                 24.75 s    (13.36 s .. 29.86 s)
+                     0.974 R²   (0.934 R² .. 1.000 R²)
+mean                 28.89 s    (25.69 s .. 30.00 s)
+std dev              2.134 s    (54.52 ms .. 2.535 s)
+variance introduced by outliers: 21% (moderately inflated)
+
+benchmarking CPU/n4096, d64, m8192
+time                 5.443 s    (387.7 ms .. 8.961 s)
+                     0.886 R²   (0.717 R² .. 1.000 R²)
+mean                 11.39 s    (8.432 s .. 13.72 s)
+std dev              3.158 s    (1.429 s .. 4.328 s)
+variance introduced by outliers: 72% (severely inflated)
+
+benchmarking CPU/n4096, d64, m16384
+time                 2.245 s    (138.3 ms .. NaN s)
+                     0.664 R²   (0.516 R² .. 1.000 R²)
+mean                 7.762 s    (5.183 s .. 12.14 s)
+std dev              4.154 s    (907.9 ms .. 5.203 s)
+variance introduced by outliers: 74% (severely inflated)
+
+benchmarking CPU/n4096, d128, m8
+time                 329.9 s    (299.8 s .. 352.1 s)
+                     0.999 R²   (0.997 R² .. 1.000 R²)
+mean                 340.2 s    (332.4 s .. 353.5 s)
+std dev              12.97 s    (2.974 s .. 17.10 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d128, m64
+time                 360.3 s    (287.8 s .. 424.6 s)
+                     0.995 R²   (0.982 R² .. 1.000 R²)
+mean                 344.1 s    (327.6 s .. 357.8 s)
+std dev              16.71 s    (11.83 s .. 19.48 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d128, m512
+time                 344.0 s    (295.7 s .. 384.7 s)
+                     0.998 R²   (0.994 R² .. 1.000 R²)
+mean                 342.4 s    (334.5 s .. 349.4 s)
+std dev              8.609 s    (4.555 s .. 10.93 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3218129-1.lp solve solu /tmp/cbc3218129-2.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 402 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 76 tightened bounds, 555 strengthened rows, 6 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 32 tightened bounds, 539 strengthened rows, 4 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 3 tightened bounds, 446 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 0 tightened bounds, 375 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 0 tightened bounds, 225 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 0 tightened bounds, 173 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 0 tightened bounds, 50 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 0 tightened bounds, 29 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 0 tightened bounds, 14 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 645 rows, 342 columns (342 integer (144 of which binary)) and 3277 elements
+AccILPSolver: Cbc0045I No integer variables out of 342 objects (342 integer) have costs
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0038I Initial state - 88 integers unsatisfied sum - 20.2971
+AccILPSolver: Cbc0038I Pass   1: suminf.    0.00000 (0) obj. 0 iterations 141
+AccILPSolver: Cbc0038I Solution found of 0
+AccILPSolver: Cbc0038I Cleaned solution of 0
+AccILPSolver: Cbc0038I Before mini branch and bound, 160 integers at bound fixed and 0 continuous of which 9 were internal integer and 0 internal continuous
+AccILPSolver: Cbc0038I Mini branch and bound did not improve solution (0.14 seconds)
+AccILPSolver: Cbc0038I After 0.14 seconds - Feasibility pump exiting with objective of 0 - took 0.01 seconds
+AccILPSolver: Cbc0012I Integer solution of 0 found by feasibility pump after 0 iterations and 0 nodes (0.14 seconds)
+AccILPSolver: Cbc0001I Search completed - best objective 0, took 0 iterations and 0 nodes (0.14 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from 0 to 0
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               0
+AccILPSolver: Time (CPU seconds):             0.15
+AccILPSolver: Time (Wallclock seconds):       0.15
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.18   (Wallclock seconds):       0.18
+AccILPSolver: 
+benchmarking CPU/n4096, d128, m16384
+time                 12.10 s    (630.1 ms .. 31.98 s)
+                     0.767 R²   (0.654 R² .. 1.000 R²)
+mean                 18.96 s    (13.66 s .. 25.86 s)
+std dev              6.839 s    (2.643 s .. 9.391 s)
+variance introduced by outliers: 73% (severely inflated)

@@ -1,0 +1,94 @@
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc897999-1.lp solve solu /tmp/cbc897999-2.sol (default strategy 1)
+AccILPSolver: Continuous objective value is -10.9949 - 0.00 seconds
+AccILPSolver: Cgl0002I 9 variables fixed
+AccILPSolver: Cgl0003I 3 fixed, 10 tightened bounds, 5 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 1 fixed, 6 tightened bounds, 9 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 2 fixed, 4 tightened bounds, 2 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 52 rows, 40 columns (40 integer (10 of which binary)) and 124 elements
+AccILPSolver: Cutoff increment increased from 1e-05 to 0.9999
+AccILPSolver: Cbc0038I Initial state - 0 integers unsatisfied sum - 2.88658e-15
+AccILPSolver: Cbc0038I Solution found of -10
+AccILPSolver: Cbc0038I Cleaned solution of -10
+AccILPSolver: Cbc0038I Before mini branch and bound, 40 integers at bound fixed and 0 continuous of which 1 were internal integer and 0 internal continuous
+AccILPSolver: Cbc0038I Mini branch and bound did not improve solution (0.01 seconds)
+AccILPSolver: Cbc0038I After 0.01 seconds - Feasibility pump exiting with objective of -10 - took 0.00 seconds
+AccILPSolver: Cbc0012I Integer solution of -10 found by feasibility pump after 0 iterations and 0 nodes (0.01 seconds)
+AccILPSolver: Cbc0001I Search completed - best objective -10, took 0 iterations and 0 nodes (0.01 seconds)
+AccILPSolver: Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from -10 to -10
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                -10.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               0
+AccILPSolver: Time (CPU seconds):             0.01
+AccILPSolver: Time (Wallclock seconds):       0.02
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.02   (Wallclock seconds):       0.02
+AccILPSolver: 
+benchmarking CPU/Scalar Z [500]
+time                 21.35 ms   (21.01 ms .. 21.64 ms)
+                     0.999 R²   (0.997 R² .. 0.999 R²)
+mean                 20.35 ms   (19.52 ms .. 20.69 ms)
+std dev              1.091 ms   (592.9 μs .. 1.919 ms)
+variance introduced by outliers: 18% (moderately inflated)
+
+benchmarking CPU/Scalar Z [1000]
+time                 33.59 ms   (32.70 ms .. 34.44 ms)
+                     0.997 R²   (0.993 R² .. 0.999 R²)
+mean                 33.13 ms   (32.59 ms .. 33.56 ms)
+std dev              1.024 ms   (708.9 μs .. 1.566 ms)
+
+benchmarking CPU/Scalar Z [1500]
+time                 50.23 ms   (49.18 ms .. 51.43 ms)
+                     0.998 R²   (0.996 R² .. 1.000 R²)
+mean                 48.24 ms   (46.34 ms .. 49.11 ms)
+std dev              2.329 ms   (1.050 ms .. 3.959 ms)
+variance introduced by outliers: 14% (moderately inflated)
+
+benchmarking CPU/Scalar Z [2000]
+time                 67.05 ms   (63.93 ms .. 69.08 ms)
+                     0.997 R²   (0.993 R² .. 1.000 R²)
+mean                 66.36 ms   (64.73 ms .. 67.53 ms)
+std dev              2.358 ms   (1.421 ms .. 3.980 ms)
+
+benchmarking CPU/Scalar Z [2500]
+time                 84.07 ms   (77.12 ms .. 88.79 ms)
+                     0.992 R²   (0.983 R² .. 0.998 R²)
+mean                 83.38 ms   (81.12 ms .. 86.83 ms)
+std dev              4.741 ms   (3.467 ms .. 6.314 ms)
+variance introduced by outliers: 18% (moderately inflated)
+
+benchmarking CPU/Scalar Z [3000]
+time                 101.3 ms   (99.29 ms .. 104.5 ms)
+                     0.999 R²   (0.996 R² .. 1.000 R²)
+mean                 99.00 ms   (96.79 ms .. 101.0 ms)
+std dev              3.328 ms   (2.410 ms .. 4.274 ms)
+
+benchmarking CPU/Scalar Z [3500]
+time                 116.0 ms   (113.4 ms .. 119.4 ms)
+                     0.999 R²   (0.997 R² .. 1.000 R²)
+mean                 117.1 ms   (115.5 ms .. 120.2 ms)
+std dev              3.286 ms   (1.190 ms .. 4.923 ms)
+variance introduced by outliers: 11% (moderately inflated)
+
+benchmarking CPU/Scalar Z [4000]
+time                 126.2 ms   (115.4 ms .. 134.2 ms)
+                     0.993 R²   (0.987 R² .. 0.999 R²)
+mean                 128.1 ms   (124.1 ms .. 134.1 ms)
+std dev              7.566 ms   (4.559 ms .. 11.15 ms)
+variance introduced by outliers: 12% (moderately inflated)
+

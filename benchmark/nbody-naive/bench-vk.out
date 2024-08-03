@@ -1,0 +1,172 @@
+Build profile: -w ghc-9.2.5 -O1
+In order, the following will be built (use -v for more details):
+ - nbody-naive-0.1.0.0 (exe:nbody-naive) (file src/Main.hs changed)
+Preprocessing executable 'nbody-naive' for nbody-naive-0.1.0.0..
+Building executable 'nbody-naive' for nbody-naive-0.1.0.0..
+[4 of 4] Compiling Main             ( src/Main.hs, /home/luxinliang/graduate_project/benchmark/nbody-naive/dist-newstyle/build/x86_64-linux/ghc-9.2.5/nbody-naive-0.1.0.0/x/nbody-naive/build/nbody-naive/nbody-naive-tmp/Main.o, /home/luxinliang/graduate_project/benchmark/nbody-naive/dist-newstyle/build/x86_64-linux/ghc-9.2.5/nbody-naive-0.1.0.0/x/nbody-naive/build/nbody-naive/nbody-naive-tmp/Main.dyn_o )
+
+src/Main.hs:5:1: warning: [-Wunused-imports]
+    The import of ‘Data.Array.Accelerate.LLVM.Native’ is redundant
+      except perhaps to import instances from ‘Data.Array.Accelerate.LLVM.Native’
+    To import instances alone, use: import Data.Array.Accelerate.LLVM.Native()
+  |
+5 | import Data.Array.Accelerate.LLVM.Native as CPU
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Main.hs:9:1: warning: [-Wunused-imports]
+    The import of ‘Debug.Trace’ is redundant
+      except perhaps to import instances from ‘Debug.Trace’
+    To import instances alone, use: import Debug.Trace()
+  |
+9 | import Debug.Trace
+  | ^^^^^^^^^^^^^^^^^^
+
+src/Main.hs:10:1: warning: [-Wunused-imports]
+    The import of ‘Physics’ is redundant
+      except perhaps to import instances from ‘Physics’
+    To import instances alone, use: import Physics()
+   |
+10 | import Physics (pointmass)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Main.hs:11:1: warning: [-Wunused-imports]
+    The import of ‘Input’ is redundant
+      except perhaps to import instances from ‘Input’
+    To import instances alone, use: import Input()
+   |
+11 | import Input (gen_input)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Main.hs:14:1: warning: [-Wunused-imports]
+    The import of ‘Data.Array.Accelerate.AST.Schedule.Sequential’ is redundant
+      except perhaps to import instances from ‘Data.Array.Accelerate.AST.Schedule.Sequential’
+    To import instances alone, use: import Data.Array.Accelerate.AST.Schedule.Sequential()
+   |
+14 | import Data.Array.Accelerate.AST.Schedule.Sequential (SequentialSchedule)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Main.hs:17:1: warning: [-Wunused-imports]
+    The import of ‘Data.Array.Accelerate.Vulkan.Kernel’ is redundant
+      except perhaps to import instances from ‘Data.Array.Accelerate.Vulkan.Kernel’
+    To import instances alone, use: import Data.Array.Accelerate.Vulkan.Kernel()
+   |
+17 | import Data.Array.Accelerate.Vulkan.Kernel (VulkanKernel)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Main.hs:19:1: warning: [-Wunused-imports]
+    The import of ‘Data.Array.Accelerate.LLVM.Native’ is redundant
+      except perhaps to import instances from ‘Data.Array.Accelerate.LLVM.Native’
+    To import instances alone, use: import Data.Array.Accelerate.LLVM.Native()
+   |
+19 | import Data.Array.Accelerate.LLVM.Native (Native, NativeKernel)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src/Main.hs:29:3: warning: [-Wtabs]
+    Tab character found here, and in five further locations.
+    Please use spaces instead.
+   |
+29 |                 -- backend "CPU" $ runN @CPU.Native
+   |   ^^^^^^
+
+src/Main.hs:35:5: warning: [-Wname-shadowing]
+    This binding for ‘size’ shadows the existing binding
+      imported from ‘Data.Array.Accelerate’ at src/Main.hs:4:1-28
+      (and originally defined in ‘accelerate-1.3.0.0-inplace:Data.Array.Accelerate.Language’)
+   |
+35 |     size r n = env (return (r nbody, fromList Z [0.1], fromList Z [n], fromList Z [10])) $ \ ~(p,dt,n,k) -> bench (show n) $ nf (p dt n) k
+   |     ^^^^
+
+src/Main.hs:35:101: warning: [-Wname-shadowing]
+    This binding for ‘n’ shadows the existing binding
+      bound at src/Main.hs:35:12
+   |
+35 |     size r n = env (return (r nbody, fromList Z [0.1], fromList Z [n], fromList Z [10])) $ \ ~(p,dt,n,k) -> bench (show n) $ nf (p dt n) k
+   |                                                                                                     ^
+Linking /home/luxinliang/graduate_project/benchmark/nbody-naive/dist-newstyle/build/x86_64-linux/ghc-9.2.5/nbody-naive-0.1.0.0/x/nbody-naive/build/nbody-naive/nbody-naive ...
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc985086-1.lp solve solu /tmp/cbc985086-2.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.00 seconds
+AccILPSolver: Cgl0002I 144 variables fixed
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               0
+AccILPSolver: Time (CPU seconds):             0.02
+AccILPSolver: Time (Wallclock seconds):       0.02
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.03   (Wallclock seconds):       0.03
+AccILPSolver: 
+benchmarking Vulkan/Scalar Z [500]
+Using device: NVIDIA GeForce RTX 3090, Vulkan version: 1.3.277
+time                 27.62 ms   (23.82 ms .. 31.92 ms)
+                     0.935 R²   (0.900 R² .. 0.979 R²)
+mean                 20.86 ms   (18.98 ms .. 23.01 ms)
+std dev              4.418 ms   (3.247 ms .. 6.447 ms)
+variance introduced by outliers: 79% (severely inflated)
+
+benchmarking Vulkan/Scalar Z [1000]
+time                 36.07 ms   (31.34 ms .. 40.87 ms)
+                     0.955 R²   (0.902 R² .. 0.987 R²)
+mean                 43.60 ms   (37.98 ms .. 59.70 ms)
+std dev              19.12 ms   (3.722 ms .. 34.09 ms)
+variance introduced by outliers: 93% (severely inflated)
+
+benchmarking Vulkan/Scalar Z [1500]
+time                 79.86 ms   (75.74 ms .. 86.15 ms)
+                     0.990 R²   (0.973 R² .. 0.999 R²)
+mean                 92.17 ms   (87.09 ms .. 103.6 ms)
+std dev              12.43 ms   (7.116 ms .. 19.74 ms)
+variance introduced by outliers: 48% (moderately inflated)
+
+benchmarking Vulkan/Scalar Z [2000]
+time                 121.1 ms   (104.6 ms .. 135.2 ms)
+                     0.977 R²   (0.934 R² .. 0.999 R²)
+mean                 130.1 ms   (122.8 ms .. 141.5 ms)
+std dev              14.26 ms   (7.564 ms .. 22.52 ms)
+variance introduced by outliers: 35% (moderately inflated)
+
+benchmarking Vulkan/Scalar Z [2500]
+time                 180.2 ms   (155.0 ms .. 216.6 ms)
+                     0.985 R²   (0.956 R² .. 1.000 R²)
+mean                 215.5 ms   (193.6 ms .. 261.2 ms)
+std dev              39.57 ms   (15.02 ms .. 56.26 ms)
+variance introduced by outliers: 48% (moderately inflated)
+
+benchmarking Vulkan/Scalar Z [3000]
+time                 333.7 ms   (221.8 ms .. 542.4 ms)
+                     0.951 R²   (0.928 R² .. 1.000 R²)
+mean                 312.7 ms   (241.6 ms .. 353.2 ms)
+std dev              68.93 ms   (19.88 ms .. 93.51 ms)
+variance introduced by outliers: 48% (moderately inflated)
+
+benchmarking Vulkan/Scalar Z [3500]
+time                 418.0 ms   (349.7 ms .. NaN s)
+                     0.977 R²   (0.919 R² .. 1.000 R²)
+mean                 390.4 ms   (333.4 ms .. 430.7 ms)
+std dev              57.28 ms   (23.44 ms .. 79.41 ms)
+variance introduced by outliers: 24% (moderately inflated)
+
+benchmarking Vulkan/Scalar Z [4000]
+time                 476.3 ms   (347.9 ms .. 565.7 ms)
+                     0.992 R²   (0.972 R² .. 1.000 R²)
+mean                 424.8 ms   (375.6 ms .. 449.8 ms)
+std dev              46.38 ms   (635.4 μs .. 57.08 ms)
+variance introduced by outliers: 23% (moderately inflated)
+
+nbody-naive: VulkanMemoryAllocator/include/vk_mem_alloc.h:11801: void VmaDeviceMemoryBlock::Destroy(VmaAllocator): Assertion `m_pMetadata->IsEmpty() && "Some allocations were not freed before destruction of this memory block!"' failed.

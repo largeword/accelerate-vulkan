@@ -1,0 +1,335 @@
+benchmarking Vulkan/Everythingn512, d64, m8
+time                 5.806 s    (3.826 s .. 7.118 s)
+                     0.987 R²   (0.957 R² .. 1.000 R²)
+mean                 5.188 s    (4.719 s .. 5.443 s)
+std dev              449.5 ms   (83.75 ms .. 588.1 ms)
+variance introduced by outliers: 22% (moderately inflated)
+
+benchmarking Vulkan/Everythingn512, d64, m64
+time                 5.631 s    (5.262 s .. 5.968 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 5.604 s    (5.543 s .. 5.652 s)
+std dev              65.47 ms   (48.23 ms .. 79.36 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn512, d64, m512
+time                 2.844 s    (2.233 s .. 3.303 s)
+                     0.995 R²   (0.982 R² .. NaN R²)
+mean                 2.775 s    (2.703 s .. 2.890 s)
+std dev              116.1 ms   (46.88 ms .. 160.6 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn512, d64, m2048
+time                 711.9 ms   (586.1 ms .. 817.5 ms)
+                     0.996 R²   (0.987 R² .. 1.000 R²)
+mean                 723.6 ms   (709.7 ms .. 738.6 ms)
+std dev              18.11 ms   (7.699 ms .. 23.28 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn512, d64, m8192
+time                 193.9 ms   (177.3 ms .. 224.3 ms)
+                     0.990 R²   (0.970 R² .. 1.000 R²)
+mean                 195.1 ms   (185.5 ms .. 203.8 ms)
+std dev              12.45 ms   (7.430 ms .. 17.84 ms)
+variance introduced by outliers: 15% (moderately inflated)
+
+benchmarking Vulkan/Everythingn512, d64, m16384
+time                 102.6 ms   (96.04 ms .. 112.2 ms)
+                     0.993 R²   (0.982 R² .. 0.999 R²)
+mean                 121.0 ms   (113.9 ms .. 141.7 ms)
+std dev              16.00 ms   (5.104 ms .. 26.51 ms)
+variance introduced by outliers: 36% (moderately inflated)
+
+benchmarking Vulkan/Everythingn512, d128, m8
+time                 5.570 s    (5.078 s .. 6.324 s)
+                     0.997 R²   (0.996 R² .. 1.000 R²)
+mean                 5.354 s    (5.251 s .. 5.472 s)
+std dev              137.3 ms   (62.44 ms .. 179.6 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn512, d128, m64
+time                 4.853 s    (4.199 s .. 5.147 s)
+                     0.998 R²   (0.995 R² .. 1.000 R²)
+mean                 5.073 s    (4.899 s .. 5.132 s)
+std dev              115.9 ms   (1.240 ms .. 136.0 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn512, d128, m512
+time                 5.486 s    (4.243 s .. 7.217 s)
+                     0.989 R²   (0.967 R² .. 1.000 R²)
+mean                 5.269 s    (5.038 s .. 5.430 s)
+std dev              233.2 ms   (100.0 ms .. 324.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn512, d128, m2048
+time                 1.593 s    (1.460 s .. 1.753 s)
+                     0.999 R²   (0.996 R² .. NaN R²)
+mean                 1.345 s    (1.178 s .. 1.428 s)
+std dev              158.3 ms   (655.7 μs .. 193.3 ms)
+variance introduced by outliers: 23% (moderately inflated)
+
+benchmarking Vulkan/Everythingn512, d128, m8192
+time                 362.5 ms   (356.7 ms .. 369.8 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 396.5 ms   (382.2 ms .. 419.8 ms)
+std dev              22.20 ms   (3.958 ms .. 28.93 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn512, d128, m16384
+time                 213.7 ms   (205.9 ms .. 222.0 ms)
+                     0.999 R²   (0.995 R² .. 1.000 R²)
+mean                 223.4 ms   (217.8 ms .. 231.0 ms)
+std dev              8.330 ms   (3.516 ms .. 9.676 ms)
+variance introduced by outliers: 14% (moderately inflated)
+
+benchmarking Vulkan/Everythingn1024, d64, m8
+time                 11.32 s    (10.78 s .. 11.73 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 10.58 s    (9.727 s .. 10.89 s)
+std dev              579.1 ms   (26.13 ms .. 712.1 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn1024, d64, m64
+time                 10.12 s    (9.123 s .. 11.46 s)
+                     0.997 R²   (0.997 R² .. 1.000 R²)
+mean                 10.68 s    (10.38 s .. 10.89 s)
+std dev              323.2 ms   (193.9 ms .. 456.8 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn1024, d64, m512
+time                 4.518 s    (3.366 s .. 5.331 s)
+                     0.990 R²   (0.985 R² .. 1.000 R²)
+mean                 4.871 s    (4.643 s .. 5.007 s)
+std dev              220.3 ms   (81.00 ms .. 293.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn1024, d64, m2048
+time                 1.313 s    (1.152 s .. 1.656 s)
+                     0.992 R²   (0.986 R² .. 1.000 R²)
+mean                 1.297 s    (1.237 s .. 1.349 s)
+std dev              62.78 ms   (49.73 ms .. 75.83 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn1024, d64, m8192
+time                 363.6 ms   (295.7 ms .. 416.8 ms)
+                     0.996 R²   (0.986 R² .. 1.000 R²)
+mean                 417.4 ms   (389.5 ms .. 439.9 ms)
+std dev              32.27 ms   (22.81 ms .. 37.57 ms)
+variance introduced by outliers: 21% (moderately inflated)
+
+benchmarking Vulkan/Everythingn1024, d64, m16384
+time                 252.1 ms   (210.5 ms .. 293.7 ms)
+                     0.992 R²   (0.980 R² .. 1.000 R²)
+mean                 278.4 ms   (262.1 ms .. 298.5 ms)
+std dev              23.20 ms   (17.04 ms .. 28.73 ms)
+variance introduced by outliers: 18% (moderately inflated)
+
+benchmarking Vulkan/Everythingn1024, d128, m8
+time                 11.00 s    (10.71 s .. 11.41 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 10.97 s    (10.84 s .. 11.05 s)
+std dev              131.8 ms   (47.62 ms .. 176.5 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn1024, d128, m64
+time                 10.68 s    (NaN s .. 12.20 s)
+                     0.997 R²   (0.991 R² .. 1.000 R²)
+mean                 11.22 s    (10.78 s .. 11.56 s)
+std dev              450.4 ms   (205.9 ms .. 609.6 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn1024, d128, m512
+time                 11.63 s    (11.19 s .. 12.22 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 10.86 s    (10.39 s .. 11.16 s)
+std dev              462.7 ms   (172.4 ms .. 631.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn1024, d128, m2048
+time                 2.644 s    (2.435 s .. 2.737 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 2.684 s    (2.653 s .. 2.702 s)
+std dev              30.87 ms   (12.68 ms .. 40.22 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn1024, d128, m8192
+time                 763.3 ms   (639.8 ms .. 933.0 ms)
+                     0.992 R²   (0.990 R² .. 1.000 R²)
+mean                 816.6 ms   (771.0 ms .. 890.7 ms)
+std dev              70.60 ms   (9.803 ms .. 90.45 ms)
+variance introduced by outliers: 22% (moderately inflated)
+
+benchmarking Vulkan/Everythingn1024, d128, m16384
+time                 485.1 ms   (479.4 ms .. 497.2 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 509.8 ms   (498.3 ms .. 528.3 ms)
+std dev              17.57 ms   (4.494 ms .. 21.51 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn2048, d64, m8
+time                 22.03 s    (18.93 s .. 25.07 s)
+                     0.996 R²   (0.996 R² .. 1.000 R²)
+mean                 20.81 s    (20.10 s .. 21.47 s)
+std dev              753.8 ms   (417.1 ms .. 1.053 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn2048, d64, m64
+time                 22.85 s    (22.53 s .. 23.24 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 22.45 s    (22.25 s .. 22.60 s)
+std dev              206.1 ms   (91.61 ms .. 279.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn2048, d64, m512
+time                 10.71 s    (9.748 s .. 11.80 s)
+                     0.999 R²   (0.995 R² .. 1.000 R²)
+mean                 10.78 s    (10.59 s .. 10.94 s)
+std dev              193.6 ms   (51.23 ms .. 236.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn2048, d64, m2048
+time                 2.935 s    (2.673 s .. 3.199 s)
+                     0.999 R²   (0.996 R² .. 1.000 R²)
+mean                 2.974 s    (2.932 s .. 3.017 s)
+std dev              49.46 ms   (41.80 ms .. 51.74 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn2048, d64, m8192
+time                 1.043 s    (971.2 ms .. 1.129 s)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 990.1 ms   (971.6 ms .. 1.012 s)
+std dev              25.58 ms   (122.8 μs .. 31.37 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn2048, d64, m16384
+time                 1.425 s    (1.410 s .. 1.435 s)
+                     1.000 R²   (1.000 R² .. NaN R²)
+mean                 1.433 s    (1.428 s .. 1.436 s)
+std dev              5.066 ms   (4.040 ms .. 6.052 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn2048, d128, m8
+time                 21.02 s    (19.80 s .. 22.18 s)
+                     1.000 R²   (0.998 R² .. 1.000 R²)
+mean                 21.30 s    (21.07 s .. 21.49 s)
+std dev              250.6 ms   (200.2 ms .. 289.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn2048, d128, m64
+time                 21.26 s    (20.06 s .. 22.17 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 21.60 s    (21.38 s .. 21.80 s)
+std dev              274.2 ms   (141.5 ms .. 347.1 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn2048, d128, m512
+time                 20.64 s    (18.99 s .. 21.42 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 21.71 s    (21.17 s .. 22.07 s)
+std dev              550.3 ms   (271.3 ms .. 773.1 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn2048, d128, m2048
+time                 5.887 s    (4.855 s .. 6.392 s)
+                     0.996 R²   (0.992 R² .. 1.000 R²)
+mean                 5.926 s    (5.737 s .. 6.090 s)
+std dev              196.7 ms   (120.8 ms .. 240.6 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn2048, d128, m8192
+time                 1.928 s    (1.868 s .. 2.051 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 2.002 s    (1.964 s .. 2.025 s)
+std dev              38.20 ms   (23.00 ms .. 46.76 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn2048, d128, m16384
+time                 2.861 s    (2.783 s .. 2.943 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 2.824 s    (2.801 s .. 2.842 s)
+std dev              23.37 ms   (16.36 ms .. 27.94 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn4096, d64, m8
+time                 42.08 s    (35.61 s .. 45.41 s)
+                     0.997 R²   (0.993 R² .. 1.000 R²)
+mean                 42.00 s    (40.90 s .. 42.92 s)
+std dev              1.171 s    (548.1 ms .. 1.560 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn4096, d64, m64
+time                 40.49 s    (38.65 s .. 43.87 s)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 42.08 s    (41.37 s .. 42.78 s)
+std dev              858.8 ms   (445.0 ms .. 1.182 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn4096, d64, m512
+time                 21.80 s    (20.95 s .. 22.53 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 21.52 s    (21.23 s .. 21.63 s)
+std dev              205.6 ms   (1.916 ms .. 252.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn4096, d64, m2048
+time                 5.883 s    (5.547 s .. 6.281 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 6.064 s    (5.959 s .. 6.188 s)
+std dev              142.6 ms   (17.34 ms .. 182.4 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn4096, d64, m8192
+time                 5.696 s    (5.605 s .. 5.896 s)
+                     1.000 R²   (NaN R² .. 1.000 R²)
+mean                 5.688 s    (5.653 s .. 5.719 s)
+std dev              36.68 ms   (9.826 ms .. 45.00 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn4096, d64, m16384
+time                 4.346 s    (4.263 s .. 4.410 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 4.353 s    (4.331 s .. 4.376 s)
+std dev              24.71 ms   (13.49 ms .. 34.88 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn4096, d128, m8
+time                 46.22 s    (NaN s .. 47.67 s)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 46.37 s    (45.89 s .. 46.85 s)
+std dev              575.0 ms   (412.9 ms .. 697.2 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn4096, d128, m64
+time                 46.34 s    (43.71 s .. 48.26 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 46.81 s    (46.34 s .. 47.22 s)
+std dev              521.7 ms   (420.1 ms .. 588.8 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn4096, d128, m512
+time                 45.51 s    (42.93 s .. 50.21 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 46.76 s    (46.02 s .. 47.85 s)
+std dev              1.047 s    (324.8 ms .. 1.383 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn4096, d128, m2048
+time                 12.83 s    (12.70 s .. 13.03 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 13.11 s    (12.99 s .. 13.23 s)
+std dev              147.6 ms   (71.36 ms .. 195.2 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn4096, d128, m8192
+time                 11.17 s    (10.51 s .. 11.60 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 11.13 s    (10.96 s .. 11.24 s)
+std dev              164.9 ms   (65.76 ms .. 228.8 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/Everythingn4096, d128, m16384
+time                 8.727 s    (8.669 s .. 8.801 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 8.676 s    (8.650 s .. 8.701 s)
+std dev              30.63 ms   (26.52 ms .. 35.21 ms)
+variance introduced by outliers: 19% (moderately inflated)

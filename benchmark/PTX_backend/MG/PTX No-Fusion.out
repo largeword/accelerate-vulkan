@@ -1,0 +1,83 @@
+benchmarking GPU/n=128, iter=4
+time                 488.5 ms   (295.3 ms .. 627.9 ms)
+                     0.983 R²   (0.939 R² .. 1.000 R²)
+mean                 529.9 ms   (499.4 ms .. 550.6 ms)
+std dev              29.45 ms   (15.12 ms .. 37.82 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n=128, iter=8
+time                 992.7 ms   (949.1 ms .. 1.066 s)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 976.0 ms   (965.9 ms .. 986.1 ms)
+std dev              12.52 ms   (5.383 ms .. 15.36 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n=128, iter=16
+time                 2.059 s    (1.947 s .. 2.152 s)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 1.918 s    (1.749 s .. 1.978 s)
+std dev              113.7 ms   (6.369 ms .. 139.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n=128, iter=32
+time                 3.918 s    (3.866 s .. 4.016 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 3.926 s    (3.907 s .. 3.948 s)
+std dev              24.41 ms   (10.54 ms .. 33.70 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n=128, iter=64
+time                 7.743 s    (7.718 s .. 7.800 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 7.745 s    (7.736 s .. 7.755 s)
+std dev              11.90 ms   (5.500 ms .. 15.85 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n=128, iter=128
+time                 15.76 s    (15.45 s .. 16.34 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 15.47 s    (15.37 s .. 15.62 s)
+std dev              143.5 ms   (25.93 ms .. 188.2 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n=256, iter=4
+time                 1.565 s    (1.446 s .. 1.654 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 1.577 s    (1.561 s .. 1.600 s)
+std dev              23.70 ms   (6.794 ms .. 31.78 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n=256, iter=8
+time                 2.851 s    (2.617 s .. 3.138 s)
+                     0.999 R²   (0.996 R² .. 1.000 R²)
+mean                 2.968 s    (2.908 s .. 3.026 s)
+std dev              73.80 ms   (4.584 ms .. 91.27 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n=256, iter=16
+time                 5.800 s    (5.476 s .. 6.248 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 5.758 s    (5.677 s .. 5.826 s)
+std dev              82.22 ms   (37.57 ms .. 115.1 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n=256, iter=32
+time                 11.23 s    (11.06 s .. 11.37 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 11.49 s    (11.36 s .. 11.61 s)
+std dev              154.8 ms   (78.20 ms .. 190.2 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n=256, iter=64
+time                 22.66 s    (22.26 s .. 23.22 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 22.67 s    (22.54 s .. 22.81 s)
+std dev              147.0 ms   (75.46 ms .. 206.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking GPU/n=256, iter=128
+time                 45.15 s    (44.29 s .. 45.61 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 44.98 s    (44.71 s .. 45.14 s)
+std dev              265.5 ms   (62.89 ms .. 352.0 ms)
+variance introduced by outliers: 19% (moderately inflated)

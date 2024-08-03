@@ -1,0 +1,55 @@
+benchmarking CPU/Scalar Z [500]
+time                 218.6 ms   (197.4 ms .. 226.7 ms)
+                     0.996 R²   (0.985 R² .. 1.000 R²)
+mean                 208.3 ms   (195.3 ms .. 214.6 ms)
+std dev              12.02 ms   (3.599 ms .. 17.02 ms)
+variance introduced by outliers: 14% (moderately inflated)
+
+benchmarking CPU/Scalar Z [1000]
+time                 179.6 ms   (153.1 ms .. 201.2 ms)
+                     0.986 R²   (0.929 R² .. 1.000 R²)
+mean                 233.5 ms   (207.1 ms .. 273.0 ms)
+std dev              41.55 ms   (30.02 ms .. 47.50 ms)
+variance introduced by outliers: 48% (moderately inflated)
+
+benchmarking CPU/Scalar Z [1500]
+time                 420.4 ms   (333.1 ms .. 552.4 ms)
+                     0.989 R²   (0.970 R² .. 1.000 R²)
+mean                 370.4 ms   (349.1 ms .. 395.8 ms)
+std dev              28.16 ms   (9.257 ms .. 38.50 ms)
+variance introduced by outliers: 21% (moderately inflated)
+
+benchmarking CPU/Scalar Z [2000]
+time                 483.3 ms   (373.0 ms .. 648.2 ms)
+                     0.987 R²   (0.965 R² .. 1.000 R²)
+mean                 534.2 ms   (494.6 ms .. 589.6 ms)
+std dev              52.67 ms   (23.44 ms .. 67.09 ms)
+variance introduced by outliers: 22% (moderately inflated)
+
+benchmarking CPU/Scalar Z [2500]
+time                 535.0 ms   (493.2 ms .. 619.6 ms)
+                     0.997 R²   (0.995 R² .. NaN R²)
+mean                 487.2 ms   (413.3 ms .. 513.0 ms)
+std dev              49.45 ms   (2.252 ms .. 59.57 ms)
+variance introduced by outliers: 23% (moderately inflated)
+
+benchmarking CPU/Scalar Z [3000]
+time                 438.4 ms   (-21.91 ms .. 1.125 s)
+                     0.786 R²   (0.649 R² .. 1.000 R²)
+mean                 618.4 ms   (463.0 ms .. 828.8 ms)
+std dev              202.1 ms   (99.00 ms .. 259.9 ms)
+variance introduced by outliers: 73% (severely inflated)
+
+benchmarking CPU/Scalar Z [3500]
+time                 714.8 ms   (41.49 ms .. 1.072 s)
+                     0.908 R²   (0.700 R² .. 1.000 R²)
+mean                 712.5 ms   (552.0 ms .. 873.5 ms)
+std dev              184.3 ms   (110.0 ms .. 258.5 ms)
+variance introduced by outliers: 72% (severely inflated)
+
+benchmarking CPU/Scalar Z [4000]
+time                 782.7 ms   (659.6 ms .. 890.7 ms)
+                     0.997 R²   (0.989 R² .. 1.000 R²)
+mean                 677.9 ms   (599.9 ms .. 724.7 ms)
+std dev              74.24 ms   (12.06 ms .. 96.09 ms)
+variance introduced by outliers: 23% (moderately inflated)

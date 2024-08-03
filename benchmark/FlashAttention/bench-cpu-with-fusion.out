@@ -1,0 +1,736 @@
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc407072-1.lp solve solu /tmp/cbc407072-2.sol (default strategy 1)
+AccILPSolver: Continuous objective value is -62.7869 - 0.02 seconds
+AccILPSolver: Cgl0002I 85 variables fixed
+AccILPSolver: Cgl0003I 12 fixed, 288 tightened bounds, 279 strengthened rows, 35 substitutions
+AccILPSolver: Cgl0003I 9 fixed, 111 tightened bounds, 35 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 4 fixed, 32 tightened bounds, 19 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 4 fixed, 18 tightened bounds, 46 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 6 fixed, 17 tightened bounds, 13 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 5 fixed, 17 tightened bounds, 1 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 4 fixed, 19 tightened bounds, 22 strengthened rows, 1 substitutions
+AccILPSolver: Cgl0003I 5 fixed, 15 tightened bounds, 6 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0003I 2 fixed, 9 tightened bounds, 16 strengthened rows, 4 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 14 tightened bounds, 54 strengthened rows, 1 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 8 tightened bounds, 4 strengthened rows, 1 substitutions
+AccILPSolver: Cgl0003I 0 fixed, 4 tightened bounds, 2 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 1733 rows, 786 columns (786 integer (230 of which binary)) and 4363 elements
+AccILPSolver: Cutoff increment increased from 1e-05 to 0.9999
+AccILPSolver: Cbc0045I 56 integer variables out of 786 objects (786 integer) have cost of -1 - high priority
+AccILPSolver: Cbc0045I branch on satisfied N create fake objective Y random cost Y
+AccILPSolver: Cbc0038I Initial state - 513 integers unsatisfied sum - 122.968
+AccILPSolver: Cbc0038I Pass   1: suminf.   35.60962 (337) obj. -53.0569 iterations 308
+AccILPSolver: Cbc0038I Pass   2: suminf.   20.47833 (194) obj. -52.9582 iterations 120
+AccILPSolver: Cbc0038I Pass   3: suminf.   13.92473 (254) obj. -50.8261 iterations 94
+AccILPSolver: Cbc0038I Pass   4: suminf.   13.58754 (162) obj. -50.8192 iterations 24
+AccILPSolver: Cbc0038I Pass   5: suminf.    2.66552 (190) obj. -49.0076 iterations 72
+AccILPSolver: Cbc0038I Pass   6: suminf.    0.63813 (181) obj. -48.9992 iterations 12
+AccILPSolver: Cbc0038I Pass   7: suminf.    0.02467 (11) obj. -46.0038 iterations 66
+AccILPSolver: Cbc0038I Pass   8: suminf.    0.02311 (10) obj. -46.0038 iterations 3
+AccILPSolver: Cbc0038I Pass   9: suminf.    0.01695 (8) obj. -46.0038 iterations 16
+AccILPSolver: Cbc0038I Pass  10: suminf.    0.01695 (8) obj. -46.0038 iterations 0
+AccILPSolver: Cbc0038I Pass  11: suminf.    0.50765 (20) obj. -46.0038 iterations 16
+AccILPSolver: Cbc0038I Pass  12: suminf.    0.01387 (6) obj. -46.0038 iterations 23
+AccILPSolver: Cbc0038I Pass  13: suminf.    0.01387 (6) obj. -46.0038 iterations 11
+AccILPSolver: Cbc0038I Pass  14: suminf.    9.82742 (126) obj. -36.0493 iterations 186
+AccILPSolver: Cbc0038I Pass  15: suminf.    0.24314 (74) obj. -36.0016 iterations 66
+AccILPSolver: Cbc0038I Pass  16: suminf.    0.03082 (11) obj. -36.0038 iterations 50
+AccILPSolver: Cbc0038I Pass  17: suminf.    0.02926 (10) obj. -36.0038 iterations 5
+AccILPSolver: Cbc0038I Pass  18: suminf.    0.42841 (15) obj. -36.0038 iterations 14
+AccILPSolver: Cbc0038I Pass  19: suminf.    0.01847 (6) obj. -36.0038 iterations 11
+AccILPSolver: Cbc0038I Pass  20: suminf.    0.01847 (6) obj. -36.0038 iterations 8
+AccILPSolver: Cbc0038I Pass  21: suminf.    5.04332 (108) obj. -26.0177 iterations 151
+AccILPSolver: Cbc0038I Pass  22: suminf.    1.48579 (79) obj. -26.0063 iterations 27
+AccILPSolver: Cbc0038I Pass  23: suminf.    0.02483 (5) obj. -27 iterations 46
+AccILPSolver: Cbc0038I Pass  24: suminf.    0.01700 (4) obj. -27 iterations 2
+AccILPSolver: Cbc0038I Pass  25: suminf.    0.00000 (0) obj. -27 iterations 7
+AccILPSolver: Cbc0038I Solution found of -27
+AccILPSolver: Cbc0038I Cleaned solution of -27
+AccILPSolver: Cbc0038I Rounding solution of -31 is better than previous of -27
+AccILPSolver: 
+AccILPSolver: Cbc0038I Before mini branch and bound, 92 integers at bound fixed and 0 continuous of which 4 were internal integer and 0 internal continuous
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 1594 rows 690 columns - 30 fixed gives 1492, 655 - still too large
+AccILPSolver: Cbc0038I Mini branch and bound did not improve solution (0.28 seconds)
+AccILPSolver: Cbc0038I Round again with cutoff of -34.8998
+AccILPSolver: Cbc0038I Pass  26: suminf.   35.60962 (337) obj. -53.0569 iterations 0
+AccILPSolver: Cbc0038I Pass  27: suminf.   20.49557 (205) obj. -52.9582 iterations 59
+AccILPSolver: Cbc0038I Pass  28: suminf.   24.01247 (205) obj. -50.8276 iterations 95
+AccILPSolver: Cbc0038I Pass  29: suminf.   24.55652 (178) obj. -50.8208 iterations 23
+AccILPSolver: Cbc0038I Pass  30: suminf.    2.13331 (45) obj. -49.0091 iterations 30
+AccILPSolver: Cbc0038I Pass  31: suminf.    0.07503 (32) obj. -49.0007 iterations 11
+AccILPSolver: Cbc0038I Pass  32: suminf.    0.04937 (17) obj. -47.0038 iterations 48
+AccILPSolver: Cbc0038I Pass  33: suminf.    0.03864 (15) obj. -47.0038 iterations 11
+AccILPSolver: Cbc0038I Pass  34: suminf.    0.01695 (8) obj. -47.0038 iterations 30
+AccILPSolver: Cbc0038I Pass  35: suminf.    0.01695 (8) obj. -47.0038 iterations 3
+AccILPSolver: Cbc0038I Pass  36: suminf.    0.09707 (21) obj. -47.0038 iterations 18
+AccILPSolver: Cbc0038I Pass  37: suminf.    0.02003 (8) obj. -47.0038 iterations 19
+AccILPSolver: Cbc0038I Pass  38: suminf.    0.29971 (30) obj. -42.9968 iterations 104
+AccILPSolver: Cbc0038I Pass  39: suminf.    0.29954 (28) obj. -43 iterations 9
+AccILPSolver: Cbc0038I Pass  40: suminf.    0.03082 (6) obj. -43 iterations 42
+AccILPSolver: Cbc0038I Pass  41: suminf.    0.02011 (5) obj. -43 iterations 5
+AccILPSolver: Cbc0038I Pass  42: suminf.    0.08320 (15) obj. -43 iterations 14
+AccILPSolver: Cbc0038I Pass  43: suminf.    0.00468 (2) obj. -43 iterations 7
+AccILPSolver: Cbc0038I Pass  44: suminf.    0.00000 (0) obj. -43 iterations 4
+AccILPSolver: Cbc0038I Solution found of -43
+AccILPSolver: Cbc0038I Cleaned solution of -43
+AccILPSolver: Cbc0038I Rounding solution of -44 is better than previous of -43
+AccILPSolver: 
+AccILPSolver: Cbc0038I Before mini branch and bound, 138 integers at bound fixed and 0 continuous of which 3 were internal integer and 0 internal continuous
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 1479 rows 630 columns - 76 fixed gives 1168, 530 - still too large
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 778 rows 359 columns - too large
+AccILPSolver: Cbc0038I Mini branch and bound did not improve solution (0.35 seconds)
+AccILPSolver: Cbc0038I Round again with cutoff of -48.1996
+AccILPSolver: Cbc0038I Pass  45: suminf.   35.60962 (337) obj. -53.0569 iterations 0
+AccILPSolver: Cbc0038I Pass  46: suminf.   20.49557 (205) obj. -52.9582 iterations 59
+AccILPSolver: Cbc0038I Pass  47: suminf.   14.37747 (178) obj. -50.8286 iterations 53
+AccILPSolver: Cbc0038I Pass  48: suminf.   12.89337 (132) obj. -50.8197 iterations 24
+AccILPSolver: Cbc0038I Pass  49: suminf.    2.15203 (56) obj. -49.0091 iterations 58
+AccILPSolver: Cbc0038I Pass  50: suminf.    0.09375 (43) obj. -49.0007 iterations 13
+AccILPSolver: Cbc0038I Pass  51: suminf.   22.15643 (255) obj. -48.1996 iterations 210
+AccILPSolver: Cbc0038I Pass  52: suminf.   23.03130 (258) obj. -48.1996 iterations 15
+AccILPSolver: Cbc0038I Pass  53: suminf.   54.89651 (206) obj. -55.3283 iterations 103
+AccILPSolver: Cbc0038I Pass  54: suminf.   54.55077 (204) obj. -55.3283 iterations 3
+AccILPSolver: Cbc0038I Pass  55: suminf.   15.02964 (211) obj. -51.3595 iterations 80
+AccILPSolver: Cbc0038I Pass  56: suminf.   13.74498 (54) obj. -51.9714 iterations 46
+AccILPSolver: Cbc0038I Pass  57: suminf.   13.59170 (52) obj. -51.3436 iterations 33
+AccILPSolver: Cbc0038I Pass  58: suminf.   13.49421 (53) obj. -51.9714 iterations 35
+AccILPSolver: Cbc0038I Pass  59: suminf.   30.91964 (132) obj. -50.5638 iterations 64
+AccILPSolver: Cbc0038I Pass  60: suminf.    6.96749 (121) obj. -51.178 iterations 28
+AccILPSolver: Cbc0038I Pass  61: suminf.   28.85770 (81) obj. -51.3512 iterations 63
+AccILPSolver: Cbc0038I Pass  62: suminf.   24.36777 (76) obj. -51.9698 iterations 19
+AccILPSolver: Cbc0038I Pass  63: suminf.   31.39862 (102) obj. -50.56 iterations 43
+AccILPSolver: Cbc0038I Pass  64: suminf.    6.66433 (91) obj. -51.1742 iterations 18
+AccILPSolver: Cbc0038I Pass  65: suminf.   19.17582 (54) obj. -51.3489 iterations 56
+AccILPSolver: Cbc0038I Pass  66: suminf.   17.73740 (210) obj. -48.1996 iterations 177
+AccILPSolver: Cbc0038I Pass  67: suminf.   11.78661 (100) obj. -48.6644 iterations 141
+AccILPSolver: Cbc0038I Pass  68: suminf.   11.92718 (122) obj. -48.1996 iterations 37
+AccILPSolver: Cbc0038I Pass  69: suminf.   11.74453 (122) obj. -48.1996 iterations 7
+AccILPSolver: Cbc0038I Pass  70: suminf.   21.76439 (68) obj. -48.1996 iterations 141
+AccILPSolver: Cbc0038I Pass  71: suminf.   14.60458 (70) obj. -48.6642 iterations 19
+AccILPSolver: Cbc0038I Pass  72: suminf.   12.27569 (79) obj. -48.1996 iterations 35
+AccILPSolver: Cbc0038I Pass  73: suminf.    9.94705 (81) obj. -48.6642 iterations 16
+AccILPSolver: Cbc0038I Pass  74: suminf.   14.78154 (81) obj. -48.1996 iterations 20
+AccILPSolver: Cbc0038I Pass  75: suminf.    9.94705 (81) obj. -48.6642 iterations 22
+AccILPSolver: Cbc0038I Pass  76: suminf.   14.78171 (81) obj. -48.1996 iterations 31
+AccILPSolver: Cbc0038I Pass  77: suminf.    9.42813 (78) obj. -48.8426 iterations 31
+AccILPSolver: Cbc0038I Pass  78: suminf.   16.95141 (78) obj. -48.1996 iterations 26
+AccILPSolver: Cbc0038I Pass  79: suminf.   31.90058 (117) obj. -48.1996 iterations 238
+AccILPSolver: Cbc0038I Pass  80: suminf.   30.13589 (144) obj. -48.1996 iterations 49
+AccILPSolver: Cbc0038I Pass  81: suminf.   30.11071 (143) obj. -48.1996 iterations 3
+AccILPSolver: Cbc0038I Pass  82: suminf.    5.36659 (83) obj. -48.1996 iterations 42
+AccILPSolver: Cbc0038I Pass  83: suminf.    1.53385 (55) obj. -48.1996 iterations 38
+AccILPSolver: Cbc0038I Pass  84: suminf.   11.02553 (64) obj. -48.1996 iterations 8
+AccILPSolver: Cbc0038I Pass  85: suminf.   13.69038 (114) obj. -48.1996 iterations 16
+AccILPSolver: Cbc0038I Pass  86: suminf.    4.48600 (27) obj. -48.1996 iterations 4
+AccILPSolver: Cbc0038I Pass  87: suminf.    1.44925 (9) obj. -50 iterations 13
+AccILPSolver: Cbc0038I Pass  88: suminf.    0.87391 (11) obj. -50 iterations 11
+AccILPSolver: Cbc0038I Pass  89: suminf.    0.97540 (8) obj. -50 iterations 7
+AccILPSolver: Cbc0038I Pass  90: suminf.   16.85463 (77) obj. -48.1996 iterations 158
+AccILPSolver: Cbc0038I Pass  91: suminf.   32.16861 (109) obj. -48.6416 iterations 37
+AccILPSolver: Cbc0038I Pass  92: suminf.    6.44296 (40) obj. -48.1996 iterations 34
+AccILPSolver: Cbc0038I Pass  93: suminf.    4.57140 (16) obj. -48.1996 iterations 41
+AccILPSolver: Cbc0038I Pass  94: suminf.    2.70443 (11) obj. -48.6431 iterations 7
+AccILPSolver: Cbc0038I Pass  95: suminf.    6.47237 (31) obj. -48.1996 iterations 15
+AccILPSolver: Cbc0038I Pass  96: suminf.    6.84847 (31) obj. -48.1996 iterations 17
+AccILPSolver: Cbc0038I Pass  97: suminf.    6.47237 (31) obj. -48.1996 iterations 8
+AccILPSolver: Cbc0038I Pass  98: suminf.    6.84847 (31) obj. -48.1996 iterations 11
+AccILPSolver: Cbc0038I Pass  99: suminf.   47.70861 (180) obj. -48.1996 iterations 153
+AccILPSolver: Cbc0038I Pass 100: suminf.   52.44691 (221) obj. -48.1996 iterations 50
+AccILPSolver: Cbc0038I Pass 101: suminf.   44.61246 (199) obj. -48.1996 iterations 15
+AccILPSolver: Cbc0038I Pass 102: suminf.   32.83333 (88) obj. -48.1996 iterations 53
+AccILPSolver: Cbc0038I Pass 103: suminf.   15.08489 (113) obj. -48.8388 iterations 40
+AccILPSolver: Cbc0038I Pass 104: suminf.   39.98734 (110) obj. -48.1996 iterations 37
+AccILPSolver: Cbc0038I Pass 105: suminf.   11.62432 (71) obj. -48.8392 iterations 9
+AccILPSolver: Cbc0038I Pass 106: suminf.   42.87249 (115) obj. -48.1996 iterations 22
+AccILPSolver: Cbc0038I Pass 107: suminf.   12.24520 (76) obj. -48.8392 iterations 8
+AccILPSolver: Cbc0038I Pass 108: suminf.   42.87249 (115) obj. -48.1996 iterations 18
+AccILPSolver: Cbc0038I Pass 109: suminf.   12.24520 (76) obj. -48.8392 iterations 9
+AccILPSolver: Cbc0038I Pass 110: suminf.   19.71698 (145) obj. -48.1996 iterations 139
+AccILPSolver: Cbc0038I Pass 111: suminf.   11.36084 (74) obj. -48.601 iterations 68
+AccILPSolver: Cbc0038I Pass 112: suminf.    5.42482 (101) obj. -48.1996 iterations 108
+AccILPSolver: Cbc0038I Pass 113: suminf.    2.05223 (78) obj. -48.1996 iterations 10
+AccILPSolver: Cbc0038I Pass 114: suminf.    1.41914 (9) obj. -51.0042 iterations 56
+AccILPSolver: Cbc0038I Pass 115: suminf.   17.16489 (107) obj. -50.8327 iterations 17
+AccILPSolver: Cbc0038I Pass 116: suminf.    0.52923 (2) obj. -49 iterations 25
+AccILPSolver: Cbc0038I Solution found of -49
+AccILPSolver: Cbc0038I Cleaned solution of -49
+AccILPSolver: Cbc0038I Before mini branch and bound, 97 integers at bound fixed and 0 continuous of which 2 were internal integer and 0 internal continuous
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 1588 rows 686 columns - 66 fixed gives 1289, 583 - still too large
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 914 rows 414 columns - too large
+AccILPSolver: Cbc0038I Mini branch and bound did not improve solution (0.61 seconds)
+AccILPSolver: Cbc0038I Round again with cutoff of -53.2995
+AccILPSolver: Cbc0038I Pass 117: suminf.   43.72617 (327) obj. -53.2995 iterations 8
+AccILPSolver: Cbc0038I Pass 118: suminf.   19.03882 (205) obj. -53.2995 iterations 83
+AccILPSolver: Cbc0038I Pass 119: suminf.   31.25402 (312) obj. -53.2995 iterations 70
+AccILPSolver: Cbc0038I Pass 120: suminf.   10.08252 (236) obj. -53.6598 iterations 40
+AccILPSolver: Cbc0038I Pass 121: suminf.   22.27628 (245) obj. -53.2995 iterations 28
+AccILPSolver: Cbc0038I Pass 122: suminf.    9.96817 (211) obj. -53.6598 iterations 18
+AccILPSolver: Cbc0038I Pass 123: suminf.   22.27628 (245) obj. -53.2995 iterations 24
+AccILPSolver: Cbc0038I Pass 124: suminf.   75.43135 (294) obj. -53.2995 iterations 202
+AccILPSolver: Cbc0038I Pass 125: suminf.   62.57689 (276) obj. -53.6605 iterations 89
+AccILPSolver: Cbc0038I Pass 126: suminf.   62.57689 (276) obj. -53.6605 iterations 0
+AccILPSolver: Cbc0038I Pass 127: suminf.   85.05082 (286) obj. -53.2995 iterations 37
+AccILPSolver: Cbc0038I Pass 128: suminf.   62.41796 (276) obj. -53.66 iterations 25
+AccILPSolver: Cbc0038I Pass 129: suminf.   62.41796 (276) obj. -53.66 iterations 0
+AccILPSolver: Cbc0038I Pass 130: suminf.   62.41796 (276) obj. -53.66 iterations 0
+AccILPSolver: Cbc0038I Pass 131: suminf.   63.34594 (265) obj. -53.2995 iterations 24
+AccILPSolver: Cbc0038I Pass 132: suminf.   61.21120 (276) obj. -53.66 iterations 17
+AccILPSolver: Cbc0038I Pass 133: suminf.   79.78025 (285) obj. -53.2995 iterations 24
+AccILPSolver: Cbc0038I Pass 134: suminf.   50.49076 (272) obj. -53.66 iterations 24
+AccILPSolver: Cbc0038I Pass 135: suminf.   79.78025 (285) obj. -53.2995 iterations 24
+AccILPSolver: Cbc0038I Pass 136: suminf.   50.49076 (272) obj. -53.66 iterations 22
+AccILPSolver: Cbc0038I Pass 137: suminf.   79.78025 (285) obj. -53.2995 iterations 25
+AccILPSolver: Cbc0038I Pass 138: suminf.   31.90354 (250) obj. -53.2995 iterations 237
+AccILPSolver: Cbc0038I Pass 139: suminf.   31.34681 (260) obj. -53.2995 iterations 39
+AccILPSolver: Cbc0038I Pass 140: suminf.   35.94751 (194) obj. -53.355 iterations 74
+AccILPSolver: Cbc0038I Pass 141: suminf.   56.85852 (236) obj. -53.2995 iterations 73
+AccILPSolver: Cbc0038I Pass 142: suminf.   33.12234 (193) obj. -53.6641 iterations 71
+AccILPSolver: Cbc0038I Pass 143: suminf.   45.67192 (210) obj. -53.2995 iterations 51
+AccILPSolver: Cbc0038I Pass 144: suminf.   36.91512 (203) obj. -53.6632 iterations 26
+AccILPSolver: Cbc0038I Pass 145: suminf.   53.41867 (226) obj. -53.2995 iterations 58
+AccILPSolver: Cbc0038I Pass 146: suminf.   20.60091 (156) obj. -53.6642 iterations 46
+AccILPSolver: Cbc0038I Pass 147: suminf.   71.93896 (225) obj. -53.2995 iterations 33
+AccILPSolver: Cbc0038I Pass 148: suminf.   44.01477 (188) obj. -53.6637 iterations 67
+AccILPSolver: Cbc0038I Pass 149: suminf.   53.40947 (223) obj. -53.2995 iterations 56
+AccILPSolver: Cbc0038I Pass 150: suminf.   43.94203 (186) obj. -53.6642 iterations 48
+AccILPSolver: Cbc0038I Pass 151: suminf.   71.93896 (225) obj. -53.2995 iterations 26
+AccILPSolver: Cbc0038I Pass 152: suminf.   44.00935 (186) obj. -53.6637 iterations 55
+AccILPSolver: Cbc0038I Pass 153: suminf.   53.40947 (223) obj. -53.2995 iterations 58
+AccILPSolver: Cbc0038I Pass 154: suminf.   43.94744 (188) obj. -53.6642 iterations 45
+AccILPSolver: Cbc0038I Pass 155: suminf.   71.93896 (225) obj. -53.2995 iterations 30
+AccILPSolver: Cbc0038I Pass 156: suminf.   44.01477 (188) obj. -53.6637 iterations 53
+AccILPSolver: Cbc0038I Pass 157: suminf.   52.98806 (214) obj. -53.2995 iterations 96
+AccILPSolver: Cbc0038I Pass 158: suminf.   44.19992 (177) obj. -53.6642 iterations 41
+AccILPSolver: Cbc0038I Pass 159: suminf.   71.88029 (218) obj. -53.2995 iterations 42
+AccILPSolver: Cbc0038I Pass 160: suminf.   44.05048 (191) obj. -53.6637 iterations 27
+AccILPSolver: Cbc0038I Pass 161: suminf.   53.59780 (221) obj. -53.2995 iterations 57
+AccILPSolver: Cbc0038I Pass 162: suminf.   43.98316 (191) obj. -53.6642 iterations 41
+AccILPSolver: Cbc0038I Pass 163: suminf.   71.12771 (191) obj. -53.2995 iterations 60
+AccILPSolver: Cbc0038I Pass 164: suminf.   42.67963 (158) obj. -53.6637 iterations 24
+AccILPSolver: Cbc0038I Pass 165: suminf.   43.27458 (198) obj. -53.2995 iterations 72
+AccILPSolver: Cbc0038I Pass 166: suminf.   42.61462 (158) obj. -53.6642 iterations 45
+AccILPSolver: Cbc0038I Pass 167: suminf.   40.50395 (150) obj. -53.2995 iterations 25
+AccILPSolver: Cbc0038I Pass 168: suminf.   42.84538 (158) obj. -53.6642 iterations 23
+AccILPSolver: Cbc0038I Pass 169: suminf.   70.89694 (191) obj. -53.2995 iterations 32
+AccILPSolver: Cbc0038I Pass 170: suminf.   42.44886 (158) obj. -53.6637 iterations 27
+AccILPSolver: Cbc0038I Pass 171: suminf.   43.50535 (198) obj. -53.2995 iterations 63
+AccILPSolver: Cbc0038I Pass 172: suminf.   42.84538 (158) obj. -53.6642 iterations 73
+AccILPSolver: Cbc0038I Pass 173: suminf.   43.27458 (198) obj. -53.2995 iterations 57
+AccILPSolver: Cbc0038I Pass 174: suminf.   42.61462 (158) obj. -53.6642 iterations 50
+AccILPSolver: Cbc0038I Pass 175: suminf.   41.84280 (154) obj. -53.2995 iterations 39
+AccILPSolver: Cbc0038I Pass 176: suminf.   41.81367 (157) obj. -53.2995 iterations 9
+AccILPSolver: Cbc0038I Pass 177: suminf.   58.20512 (144) obj. -53.2995 iterations 34
+AccILPSolver: Cbc0038I Pass 178: suminf.   20.92879 (141) obj. -53.8426 iterations 9
+AccILPSolver: Cbc0038I Pass 179: suminf.   56.19062 (136) obj. -53.2995 iterations 18
+AccILPSolver: Cbc0038I Pass 180: suminf.   21.02725 (141) obj. -53.8426 iterations 8
+AccILPSolver: Cbc0038I Pass 181: suminf.   58.20512 (144) obj. -53.2995 iterations 21
+AccILPSolver: Cbc0038I Pass 182: suminf.   36.80438 (165) obj. -53.2995 iterations 165
+AccILPSolver: Cbc0038I Pass 183: suminf.   48.40871 (184) obj. -53.2995 iterations 52
+AccILPSolver: Cbc0038I Pass 184: suminf.   48.83682 (196) obj. -53.2995 iterations 15
+AccILPSolver: Cbc0038I Pass 185: suminf.   45.45094 (204) obj. -53.2995 iterations 16
+AccILPSolver: Cbc0038I Pass 186: suminf.   17.14280 (116) obj. -53.2995 iterations 54
+AccILPSolver: Cbc0038I Pass 187: suminf.   32.15159 (207) obj. -53.2995 iterations 43
+AccILPSolver: Cbc0038I Pass 188: suminf.    3.85308 (20) obj. -54.6346 iterations 75
+AccILPSolver: Cbc0038I Pass 189: suminf.   37.96008 (112) obj. -53.2995 iterations 13
+AccILPSolver: Cbc0038I Pass 190: suminf.    8.14002 (129) obj. -53.2995 iterations 33
+AccILPSolver: Cbc0038I Pass 191: suminf.    4.26638 (18) obj. -56.6385 iterations 53
+AccILPSolver: Cbc0038I Pass 192: suminf.    4.25462 (15) obj. -56.6346 iterations 3
+AccILPSolver: Cbc0038I Pass 193: suminf.    3.66692 (15) obj. -56.6346 iterations 7
+AccILPSolver: Cbc0038I Pass 194: suminf.    3.66692 (15) obj. -56.6346 iterations 0
+AccILPSolver: Cbc0038I Pass 195: suminf.    4.25462 (15) obj. -56.6346 iterations 8
+AccILPSolver: Cbc0038I Pass 196: suminf.    3.66692 (15) obj. -56.6346 iterations 6
+AccILPSolver: Cbc0038I Pass 197: suminf.   18.59811 (74) obj. -53.2995 iterations 113
+AccILPSolver: Cbc0038I Pass 198: suminf.   18.37535 (85) obj. -53.2995 iterations 9
+AccILPSolver: Cbc0038I Pass 199: suminf.   18.69984 (121) obj. -53.2995 iterations 19
+AccILPSolver: Cbc0038I Pass 200: suminf.   15.85898 (120) obj. -53.2995 iterations 21
+AccILPSolver: Cbc0038I Pass 201: suminf.   13.37740 (120) obj. -53.2995 iterations 16
+AccILPSolver: Cbc0038I Pass 202: suminf.   13.31049 (118) obj. -53.2995 iterations 12
+AccILPSolver: Cbc0038I Pass 203: suminf.   11.25834 (52) obj. -56.2815 iterations 38
+AccILPSolver: Cbc0038I Pass 204: suminf.   11.25834 (52) obj. -56.2815 iterations 0
+AccILPSolver: Cbc0038I Pass 205: suminf.    4.33972 (123) obj. -54.0383 iterations 28
+AccILPSolver: Cbc0038I Pass 206: suminf.   31.00147 (136) obj. -53.2995 iterations 30
+AccILPSolver: Cbc0038I Pass 207: suminf.   17.44923 (146) obj. -53.2995 iterations 36
+AccILPSolver: Cbc0038I Pass 208: suminf.   11.53385 (49) obj. -55.2831 iterations 32
+AccILPSolver: Cbc0038I Pass 209: suminf.   11.53385 (49) obj. -55.2831 iterations 1
+AccILPSolver: Cbc0038I Pass 210: suminf.   23.38266 (139) obj. -53.2995 iterations 35
+AccILPSolver: Cbc0038I Pass 211: suminf.   21.46590 (136) obj. -53.2995 iterations 20
+AccILPSolver: Cbc0038I Pass 212: suminf.   20.46699 (129) obj. -53.2995 iterations 7
+AccILPSolver: Cbc0038I Pass 213: suminf.    6.55806 (31) obj. -55.6346 iterations 25
+AccILPSolver: Cbc0038I Pass 214: suminf.    6.55806 (31) obj. -55.6346 iterations 0
+AccILPSolver: Cbc0038I Pass 215: suminf.   10.37327 (44) obj. -55.2831 iterations 12
+AccILPSolver: Cbc0038I Pass 216: suminf.   65.27862 (190) obj. -53.2995 iterations 130
+AccILPSolver: Cbc0038I No solution found this major pass
+AccILPSolver: Cbc0038I Before mini branch and bound, 115 integers at bound fixed and 0 continuous of which 2 were internal integer and 0 internal continuous
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 1563 rows 670 columns - 63 fixed gives 1272, 568 - still too large
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 896 rows 399 columns - too large
+AccILPSolver: Cbc0038I Mini branch and bound did not improve solution (0.98 seconds)
+AccILPSolver: Cbc0038I After 0.98 seconds - Feasibility pump exiting with objective of -49 - took 0.80 seconds
+AccILPSolver: Cbc0012I Integer solution of -49 found by feasibility pump after 0 iterations and 0 nodes (0.98 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 1430 rows 604 columns - 58 fixed gives 1158, 523 - still too large
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 759 rows 343 columns
+AccILPSolver: Cbc0031I 126 added rows had average density of 26.055556
+AccILPSolver: Cbc0013I At root node, 126 cuts changed objective from -60.99844 to -60.99844 in 10 passes
+AccILPSolver: Cbc0014I Cut generator 0 (Probing) - 175 row cuts average 2.7 elements, 0 column cuts (83 active)  in 0.015 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 1 (Gomory) - 488 row cuts average 40.4 elements, 0 column cuts (0 active)  in 0.057 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 2 (Knapsack) - 9 row cuts average 3.0 elements, 0 column cuts (0 active)  in 0.006 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.004 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.007 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 6 (TwoMirCuts) - 817 row cuts average 34.6 elements, 0 column cuts (0 active)  in 0.089 seconds - new frequency is -100
+AccILPSolver: Cbc0014I Cut generator 7 (ZeroHalf) - 54 row cuts average 3.6 elements, 0 column cuts (0 active)  in 0.087 seconds - new frequency is -100
+AccILPSolver: Cbc0010I After 0 nodes, 1 on tree, -49 best solution, best possible -60.99844 (1.66 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 807 rows 352 columns
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 701 rows 322 columns
+AccILPSolver: Cbc0010I After 100 nodes, 59 on tree, -49 best solution, best possible -60 (3.49 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 619 rows 298 columns
+AccILPSolver: Cbc0010I After 200 nodes, 103 on tree, -49 best solution, best possible -60 (3.69 seconds)
+AccILPSolver: Cbc0012I Integer solution of -59 found by rounding after 8027 iterations and 219 nodes (3.71 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 422 rows 188 columns
+AccILPSolver: Cbc0010I After 300 nodes, 49 on tree, -59 best solution, best possible -60 (3.88 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 533 rows 239 columns
+AccILPSolver: Cbc0010I After 400 nodes, 48 on tree, -59 best solution, best possible -60 (4.07 seconds)
+AccILPSolver: Cbc0010I After 500 nodes, 48 on tree, -59 best solution, best possible -60 (4.25 seconds)
+AccILPSolver: Cbc0010I After 600 nodes, 62 on tree, -59 best solution, best possible -60 (4.49 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 496 rows 223 columns
+AccILPSolver: Cbc0010I After 700 nodes, 60 on tree, -59 best solution, best possible -60 (4.65 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 478 rows 221 columns
+AccILPSolver: Cbc0010I After 800 nodes, 60 on tree, -59 best solution, best possible -60 (4.90 seconds)
+AccILPSolver: Cbc0010I After 900 nodes, 61 on tree, -59 best solution, best possible -60 (5.16 seconds)
+AccILPSolver: Cbc0010I After 1000 nodes, 71 on tree, -59 best solution, best possible -60 (5.44 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 513 rows 230 columns
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 510 rows 232 columns
+AccILPSolver: Cbc0010I After 1100 nodes, 69 on tree, -59 best solution, best possible -60 (5.71 seconds)
+AccILPSolver: Cbc0010I After 1200 nodes, 68 on tree, -59 best solution, best possible -60 (5.98 seconds)
+AccILPSolver: Cbc0010I After 1300 nodes, 73 on tree, -59 best solution, best possible -60 (6.19 seconds)
+AccILPSolver: Cbc0010I After 1400 nodes, 75 on tree, -59 best solution, best possible -60 (6.37 seconds)
+AccILPSolver: Cbc0010I After 1500 nodes, 77 on tree, -59 best solution, best possible -60 (6.58 seconds)
+AccILPSolver: Cbc0010I After 1600 nodes, 78 on tree, -59 best solution, best possible -60 (6.80 seconds)
+AccILPSolver: Cbc0010I After 1700 nodes, 85 on tree, -59 best solution, best possible -60 (7.29 seconds)
+AccILPSolver: Cbc0010I After 1800 nodes, 80 on tree, -59 best solution, best possible -60 (7.71 seconds)
+AccILPSolver: Cbc0010I After 1900 nodes, 65 on tree, -59 best solution, best possible -60 (7.98 seconds)
+AccILPSolver: Cbc0010I After 2000 nodes, 45 on tree, -59 best solution, best possible -60 (8.38 seconds)
+AccILPSolver: Cbc0010I After 2100 nodes, 41 on tree, -59 best solution, best possible -60 (8.92 seconds)
+AccILPSolver: Cbc0010I After 2200 nodes, 39 on tree, -59 best solution, best possible -60 (9.28 seconds)
+AccILPSolver: Cbc0010I After 2300 nodes, 35 on tree, -59 best solution, best possible -60 (9.57 seconds)
+AccILPSolver: Cbc0010I After 2400 nodes, 32 on tree, -59 best solution, best possible -60 (9.97 seconds)
+AccILPSolver: Cbc0010I After 2500 nodes, 37 on tree, -59 best solution, best possible -60 (10.55 seconds)
+AccILPSolver: Cbc0010I After 2600 nodes, 34 on tree, -59 best solution, best possible -60 (10.96 seconds)
+AccILPSolver: Cbc0010I After 2700 nodes, 36 on tree, -59 best solution, best possible -60 (11.53 seconds)
+AccILPSolver: Cbc0010I After 2800 nodes, 32 on tree, -59 best solution, best possible -60 (11.94 seconds)
+AccILPSolver: Cbc0010I After 2900 nodes, 35 on tree, -59 best solution, best possible -60 (12.47 seconds)
+AccILPSolver: Cbc0010I After 3000 nodes, 29 on tree, -59 best solution, best possible -60 (12.94 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 212 rows 85 columns
+AccILPSolver: Cbc0010I After 3100 nodes, 29 on tree, -59 best solution, best possible -60 (13.46 seconds)
+AccILPSolver: Cbc0010I After 3200 nodes, 31 on tree, -59 best solution, best possible -60 (13.99 seconds)
+AccILPSolver: Cbc0010I After 3300 nodes, 25 on tree, -59 best solution, best possible -60 (14.66 seconds)
+AccILPSolver: Cbc0010I After 3400 nodes, 28 on tree, -59 best solution, best possible -60 (15.21 seconds)
+AccILPSolver: Cbc0010I After 3500 nodes, 28 on tree, -59 best solution, best possible -60 (15.68 seconds)
+AccILPSolver: Cbc0010I After 3600 nodes, 27 on tree, -59 best solution, best possible -60 (16.33 seconds)
+AccILPSolver: Cbc0010I After 3700 nodes, 27 on tree, -59 best solution, best possible -60 (16.91 seconds)
+AccILPSolver: Cbc0010I After 3800 nodes, 30 on tree, -59 best solution, best possible -60 (17.39 seconds)
+AccILPSolver: Cbc0010I After 3900 nodes, 27 on tree, -59 best solution, best possible -60 (17.91 seconds)
+AccILPSolver: Cbc0010I After 4000 nodes, 31 on tree, -59 best solution, best possible -60 (18.42 seconds)
+AccILPSolver: Cbc0010I After 4100 nodes, 30 on tree, -59 best solution, best possible -60 (18.91 seconds)
+AccILPSolver: Cbc0010I After 4200 nodes, 31 on tree, -59 best solution, best possible -60 (19.34 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 525 rows 235 columns
+AccILPSolver: Cbc0010I After 4300 nodes, 27 on tree, -59 best solution, best possible -60 (19.72 seconds)
+AccILPSolver: Cbc0010I After 4400 nodes, 28 on tree, -59 best solution, best possible -60 (20.15 seconds)
+AccILPSolver: Cbc0010I After 4500 nodes, 34 on tree, -59 best solution, best possible -60 (20.59 seconds)
+AccILPSolver: Cbc0010I After 4600 nodes, 28 on tree, -59 best solution, best possible -60 (21.13 seconds)
+AccILPSolver: Cbc0010I After 4700 nodes, 28 on tree, -59 best solution, best possible -60 (21.66 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 602 rows 271 columns
+AccILPSolver: Cbc0010I After 4800 nodes, 28 on tree, -59 best solution, best possible -60 (22.19 seconds)
+AccILPSolver: Cbc0010I After 4900 nodes, 27 on tree, -59 best solution, best possible -60 (22.63 seconds)
+AccILPSolver: Cbc0010I After 5000 nodes, 30 on tree, -59 best solution, best possible -60 (23.16 seconds)
+AccILPSolver: Cbc0010I After 5100 nodes, 28 on tree, -59 best solution, best possible -60 (23.71 seconds)
+AccILPSolver: Cbc0010I After 5200 nodes, 21 on tree, -59 best solution, best possible -60 (24.37 seconds)
+AccILPSolver: Cbc0010I After 5300 nodes, 29 on tree, -59 best solution, best possible -60 (24.66 seconds)
+AccILPSolver: Cbc0010I After 5400 nodes, 25 on tree, -59 best solution, best possible -60 (25.17 seconds)
+AccILPSolver: Cbc0010I After 5500 nodes, 27 on tree, -59 best solution, best possible -60 (25.80 seconds)
+AccILPSolver: Cbc0010I After 5600 nodes, 23 on tree, -59 best solution, best possible -60 (26.33 seconds)
+AccILPSolver: Cbc0010I After 5700 nodes, 30 on tree, -59 best solution, best possible -60 (27.02 seconds)
+AccILPSolver: Cbc0010I After 5800 nodes, 25 on tree, -59 best solution, best possible -60 (27.58 seconds)
+AccILPSolver: Cbc0010I After 5900 nodes, 28 on tree, -59 best solution, best possible -60 (28.30 seconds)
+AccILPSolver: Cbc0010I After 6000 nodes, 24 on tree, -59 best solution, best possible -60 (28.77 seconds)
+AccILPSolver: Cbc0010I After 6100 nodes, 25 on tree, -59 best solution, best possible -60 (29.35 seconds)
+AccILPSolver: Cbc0010I After 6200 nodes, 29 on tree, -59 best solution, best possible -60 (29.77 seconds)
+AccILPSolver: Cbc0010I After 6300 nodes, 34 on tree, -59 best solution, best possible -60 (30.53 seconds)
+AccILPSolver: Cbc0010I After 6400 nodes, 21 on tree, -59 best solution, best possible -60 (31.19 seconds)
+AccILPSolver: Cbc0010I After 6500 nodes, 27 on tree, -59 best solution, best possible -60 (31.79 seconds)
+AccILPSolver: Cbc0010I After 6600 nodes, 32 on tree, -59 best solution, best possible -60 (32.33 seconds)
+AccILPSolver: Cbc0010I After 6700 nodes, 22 on tree, -59 best solution, best possible -60 (32.84 seconds)
+AccILPSolver: Cbc0010I After 6800 nodes, 22 on tree, -59 best solution, best possible -60 (33.42 seconds)
+AccILPSolver: Cbc0010I After 6900 nodes, 21 on tree, -59 best solution, best possible -60 (33.92 seconds)
+AccILPSolver: Cbc0010I After 7000 nodes, 21 on tree, -59 best solution, best possible -60 (34.40 seconds)
+AccILPSolver: Cbc0010I After 7100 nodes, 20 on tree, -59 best solution, best possible -60 (34.98 seconds)
+AccILPSolver: Cbc0010I After 7200 nodes, 21 on tree, -59 best solution, best possible -60 (35.49 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 451 rows 197 columns
+AccILPSolver: Cbc0010I After 7300 nodes, 21 on tree, -59 best solution, best possible -60 (36.00 seconds)
+AccILPSolver: Cbc0010I After 7400 nodes, 24 on tree, -59 best solution, best possible -60 (36.52 seconds)
+AccILPSolver: Cbc0010I After 7500 nodes, 19 on tree, -59 best solution, best possible -60 (37.18 seconds)
+AccILPSolver: Cbc0010I After 7600 nodes, 21 on tree, -59 best solution, best possible -60 (37.71 seconds)
+AccILPSolver: Cbc0010I After 7700 nodes, 22 on tree, -59 best solution, best possible -60 (38.34 seconds)
+AccILPSolver: Cbc0038I Full problem 1733 rows 786 columns, reduced to 699 rows 309 columns
+AccILPSolver: Cbc0010I After 7800 nodes, 33 on tree, -59 best solution, best possible -60 (39.05 seconds)
+AccILPSolver: Cbc0004I Integer solution of -60 found after 244643 iterations and 7866 nodes (39.22 seconds)
+AccILPSolver: Cbc0001I Search completed - best objective -60, took 244643 iterations and 7866 nodes (39.22 seconds)
+AccILPSolver: Cbc0032I Strong branching done 18956 times (239003 iterations), fathomed 984 nodes and fixed 854 variables
+AccILPSolver: Cbc0035I Maximum depth 88, 1794 variables fixed on reduced cost
+AccILPSolver: Cuts at root node changed objective from -60.9984 to -60.9984
+AccILPSolver: Probing was tried 10 times and created 175 cuts of which 83 were active after adding rounds of cuts (0.015 seconds)
+AccILPSolver: Gomory was tried 10 times and created 488 cuts of which 0 were active after adding rounds of cuts (0.057 seconds)
+AccILPSolver: Knapsack was tried 10 times and created 9 cuts of which 0 were active after adding rounds of cuts (0.006 seconds)
+AccILPSolver: Clique was tried 10 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 10 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.004 seconds)
+AccILPSolver: FlowCover was tried 10 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.007 seconds)
+AccILPSolver: TwoMirCuts was tried 10 times and created 817 cuts of which 0 were active after adding rounds of cuts (0.089 seconds)
+AccILPSolver: ZeroHalf was tried 10 times and created 54 cuts of which 0 were active after adding rounds of cuts (0.087 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                -60.00000000
+AccILPSolver: Enumerated nodes:               7866
+AccILPSolver: Total iterations:               244643
+AccILPSolver: Time (CPU seconds):             39.25
+AccILPSolver: Time (Wallclock seconds):       39.44
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       39.27   (Wallclock seconds):       39.47
+AccILPSolver: 
+benchmarking CPU/n512, d64, m8
+time                 3.316 s    (3.191 s .. 3.477 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 3.639 s    (3.482 s .. 3.785 s)
+std dev              188.8 ms   (81.84 ms .. 241.3 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d64, m64
+time                 3.622 s    (3.259 s .. 3.956 s)
+                     0.999 R²   (0.995 R² .. 1.000 R²)
+mean                 3.577 s    (3.487 s .. 3.624 s)
+std dev              86.45 ms   (11.17 ms .. 110.0 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d64, m512
+time                 1.741 s    (1.654 s .. 1.868 s)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 1.825 s    (1.781 s .. 1.905 s)
+std dev              78.34 ms   (2.353 ms .. 99.63 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d64, m2048
+time                 480.0 ms   (424.5 ms .. 552.4 ms)
+                     0.997 R²   (0.992 R² .. 1.000 R²)
+mean                 456.5 ms   (444.9 ms .. 468.4 ms)
+std dev              14.85 ms   (6.777 ms .. 19.65 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d64, m8192
+time                 121.9 ms   (113.3 ms .. 127.9 ms)
+                     0.993 R²   (0.976 R² .. 1.000 R²)
+mean                 124.7 ms   (121.2 ms .. 127.4 ms)
+std dev              4.856 ms   (3.259 ms .. 7.277 ms)
+variance introduced by outliers: 11% (moderately inflated)
+
+benchmarking CPU/n512, d64, m16384
+time                 68.71 ms   (63.97 ms .. 71.73 ms)
+                     0.994 R²   (0.985 R² .. 0.999 R²)
+mean                 69.42 ms   (68.20 ms .. 71.45 ms)
+std dev              2.743 ms   (1.477 ms .. 4.485 ms)
+
+benchmarking CPU/n512, d128, m8
+time                 5.839 s    (5.765 s .. 5.888 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 6.145 s    (6.014 s .. 6.340 s)
+std dev              186.3 ms   (48.17 ms .. 245.9 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d128, m64
+time                 6.045 s    (5.804 s .. 6.298 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 6.118 s    (6.051 s .. 6.165 s)
+std dev              65.91 ms   (24.65 ms .. 87.98 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d128, m512
+time                 6.232 s    (5.914 s .. 6.515 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 6.097 s    (5.955 s .. 6.162 s)
+std dev              105.5 ms   (41.59 ms .. 135.2 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d128, m2048
+time                 1.520 s    (1.454 s .. 1.561 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 1.514 s    (1.497 s .. 1.526 s)
+std dev              16.82 ms   (6.549 ms .. 22.44 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d128, m8192
+time                 413.1 ms   (340.7 ms .. 483.9 ms)
+                     0.996 R²   (0.985 R² .. 1.000 R²)
+mean                 399.2 ms   (374.4 ms .. 416.4 ms)
+std dev              24.56 ms   (8.895 ms .. 33.82 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n512, d128, m16384
+time                 203.8 ms   (192.3 ms .. 217.0 ms)
+                     0.998 R²   (0.998 R² .. 1.000 R²)
+mean                 194.1 ms   (175.6 ms .. 200.7 ms)
+std dev              15.27 ms   (1.699 ms .. 21.65 ms)
+variance introduced by outliers: 15% (moderately inflated)
+
+benchmarking CPU/n1024, d64, m8
+time                 3.071 s    (-826.2 ms .. 5.163 s)
+                     0.825 R²   (0.484 R² .. 1.000 R²)
+mean                 6.609 s    (4.992 s .. 9.749 s)
+std dev              3.103 s    (30.31 ms .. 3.641 s)
+variance introduced by outliers: 74% (severely inflated)
+
+benchmarking CPU/n1024, d64, m64
+time                 5.077 s    (4.544 s .. 5.649 s)
+                     0.998 R²   (0.994 R² .. 1.000 R²)
+mean                 5.109 s    (5.004 s .. 5.247 s)
+std dev              144.1 ms   (47.27 ms .. 195.0 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d64, m512
+time                 2.442 s    (2.294 s .. 2.752 s)
+                     0.998 R²   (0.996 R² .. 1.000 R²)
+mean                 2.540 s    (2.499 s .. 2.609 s)
+std dev              69.18 ms   (24.24 ms .. 94.08 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d64, m2048
+time                 663.3 ms   (489.1 ms .. 791.4 ms)
+                     0.968 R²   (0.952 R² .. 1.000 R²)
+mean                 632.0 ms   (576.6 ms .. 683.5 ms)
+std dev              59.86 ms   (49.60 ms .. 66.24 ms)
+variance introduced by outliers: 22% (moderately inflated)
+
+benchmarking CPU/n1024, d64, m8192
+time                 197.9 ms   (166.6 ms .. 260.2 ms)
+                     0.952 R²   (0.845 R² .. 0.999 R²)
+mean                 178.2 ms   (159.6 ms .. 193.7 ms)
+std dev              24.28 ms   (15.31 ms .. 36.34 ms)
+variance introduced by outliers: 32% (moderately inflated)
+
+benchmarking CPU/n1024, d64, m16384
+time                 149.9 ms   (136.8 ms .. 162.0 ms)
+                     0.992 R²   (0.966 R² .. 0.999 R²)
+mean                 154.3 ms   (149.8 ms .. 160.2 ms)
+std dev              7.474 ms   (4.995 ms .. 10.76 ms)
+variance introduced by outliers: 12% (moderately inflated)
+
+benchmarking CPU/n1024, d128, m8
+time                 8.024 s    (7.950 s .. 8.126 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 8.172 s    (8.113 s .. 8.275 s)
+std dev              101.9 ms   (2.863 ms .. 133.4 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d128, m64
+time                 8.177 s    (7.998 s .. 8.496 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 7.953 s    (7.852 s .. 8.033 s)
+std dev              112.4 ms   (48.37 ms .. 154.8 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d128, m512
+time                 8.400 s    (8.298 s .. 8.548 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 8.199 s    (7.960 s .. 8.283 s)
+std dev              160.8 ms   (794.7 μs .. 192.3 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d128, m2048
+time                 1.999 s    (1.958 s .. 2.086 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 2.025 s    (2.006 s .. 2.057 s)
+std dev              30.79 ms   (9.314 ms .. 41.24 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d128, m8192
+time                 511.8 ms   (408.2 ms .. NaN s)
+                     0.995 R²   (0.981 R² .. 1.000 R²)
+mean                 511.0 ms   (499.9 ms .. 528.3 ms)
+std dev              16.57 ms   (3.206 ms .. 21.80 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n1024, d128, m16384
+time                 269.6 ms   (229.4 ms .. 288.2 ms)
+                     0.992 R²   (0.959 R² .. 1.000 R²)
+mean                 257.1 ms   (247.9 ms .. 266.8 ms)
+std dev              12.34 ms   (9.293 ms .. 14.94 ms)
+variance introduced by outliers: 16% (moderately inflated)
+
+benchmarking CPU/n2048, d64, m8
+time                 16.59 s    (16.25 s .. 16.86 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 16.57 s    (16.52 s .. 16.63 s)
+std dev              66.99 ms   (28.67 ms .. 78.56 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d64, m64
+time                 15.88 s    (15.53 s .. 16.52 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 16.23 s    (16.04 s .. 16.57 s)
+std dev              332.4 ms   (9.355 ms .. 431.7 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d64, m512
+time                 8.315 s    (8.069 s .. 8.780 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 8.214 s    (8.164 s .. 8.279 s)
+std dev              66.97 ms   (20.46 ms .. 90.91 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d64, m2048
+time                 2.022 s    (1.934 s .. 2.166 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 2.044 s    (2.014 s .. 2.074 s)
+std dev              32.78 ms   (18.64 ms .. 46.24 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d64, m8192
+time                 485.8 ms   (419.8 ms .. 563.7 ms)
+                     0.997 R²   (0.989 R² .. 1.000 R²)
+mean                 533.3 ms   (509.4 ms .. 569.9 ms)
+std dev              34.91 ms   (9.310 ms .. 45.72 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d64, m16384
+time                 319.2 ms   (299.8 ms .. 356.5 ms)
+                     0.996 R²   (0.985 R² .. 1.000 R²)
+mean                 290.6 ms   (271.4 ms .. 305.4 ms)
+std dev              20.30 ms   (15.71 ms .. 25.46 ms)
+variance introduced by outliers: 17% (moderately inflated)
+
+benchmarking CPU/n2048, d128, m8
+time                 28.11 s    (27.33 s .. 29.00 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 28.70 s    (28.38 s .. 29.16 s)
+std dev              439.3 ms   (151.6 ms .. 579.4 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d128, m64
+time                 28.65 s    (27.99 s .. 29.40 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 28.35 s    (28.14 s .. 28.47 s)
+std dev              205.3 ms   (74.89 ms .. 275.4 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d128, m512
+time                 28.16 s    (27.89 s .. 28.50 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 28.28 s    (28.22 s .. 28.36 s)
+std dev              82.40 ms   (9.277 ms .. 105.2 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d128, m2048
+time                 6.989 s    (6.962 s .. 7.033 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 7.004 s    (6.996 s .. 7.014 s)
+std dev              10.18 ms   (4.603 ms .. 14.22 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d128, m8192
+time                 1.748 s    (NaN s .. 1.870 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 1.756 s    (1.726 s .. 1.768 s)
+std dev              20.43 ms   (137.4 μs .. 26.97 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n2048, d128, m16384
+time                 935.1 ms   (869.7 ms .. 1.057 s)
+                     0.998 R²   (0.996 R² .. 1.000 R²)
+mean                 922.7 ms   (902.8 ms .. 941.5 ms)
+std dev              21.82 ms   (18.04 ms .. 23.63 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d64, m8
+time                 58.66 s    (53.72 s .. 60.93 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 58.14 s    (56.91 s .. 59.01 s)
+std dev              1.201 s    (371.3 ms .. 1.629 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d64, m64
+time                 59.65 s    (55.98 s .. 63.62 s)
+                     0.999 R²   (0.998 R² .. 1.000 R²)
+mean                 58.89 s    (57.98 s .. 59.39 s)
+std dev              893.4 ms   (13.84 ms .. 1.162 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d64, m512
+time                 28.03 s    (27.21 s .. 29.13 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 28.00 s    (27.69 s .. 28.12 s)
+std dev              228.4 ms   (1.492 ms .. 279.3 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d64, m2048
+time                 6.993 s    (6.926 s .. 7.052 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 7.040 s    (7.017 s .. 7.069 s)
+std dev              30.08 ms   (12.12 ms .. 41.33 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d64, m8192
+time                 1.876 s    (1.794 s .. 1.936 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 1.850 s    (1.826 s .. 1.865 s)
+std dev              24.64 ms   (10.47 ms .. 34.31 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d64, m16384
+time                 1.081 s    (NaN s .. 1.353 s)
+                     0.993 R²   (0.977 R² .. 1.000 R²)
+mean                 1.075 s    (1.026 s .. 1.103 s)
+std dev              48.56 ms   (20.25 ms .. 65.16 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d128, m8
+time                 107.9 s    (101.1 s .. 113.4 s)
+                     1.000 R²   (0.998 R² .. 1.000 R²)
+mean                 108.9 s    (107.6 s .. 109.7 s)
+std dev              1.267 s    (586.6 ms .. 1.773 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d128, m64
+time                 109.1 s    (105.1 s .. 115.1 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 109.4 s    (108.1 s .. 110.2 s)
+std dev              1.258 s    (570.9 ms .. 1.583 s)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d128, m512
+time                 110.0 s    (106.7 s .. 112.7 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 109.1 s    (108.3 s .. 109.6 s)
+std dev              757.9 ms   (150.9 ms .. 975.5 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d128, m2048
+time                 26.66 s    (26.24 s .. 27.23 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 27.14 s    (26.91 s .. 27.49 s)
+std dev              353.0 ms   (61.88 ms .. 459.2 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d128, m8192
+time                 6.839 s    (6.463 s .. 7.180 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 6.747 s    (6.612 s .. 6.823 s)
+std dev              130.3 ms   (37.96 ms .. 176.0 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking CPU/n4096, d128, m16384
+time                 3.491 s    (3.054 s .. 3.712 s)
+                     0.998 R²   (0.996 R² .. 1.000 R²)
+mean                 3.681 s    (3.542 s .. 3.733 s)
+std dev              94.66 ms   (12.89 ms .. 119.3 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
