@@ -4,11 +4,6 @@ packages:
     ../accelerate-llvm/accelerate-llvm/*.cabal
     ../accelerate-llvm/accelerate-llvm-native/*.cabal
     ../haskell-MIP/MIP/*.cabal
-    -- ../haskell-MIP/MIP-glpk/*.cabal
-    -- ../vulkan
-
--- package accelerate
--- flags: +debug
 
 source-repository-package
     type:     git

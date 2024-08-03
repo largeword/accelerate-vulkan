@@ -1,52 +1,19 @@
-{-# LANGUAGE TypeFamilies      #-}
-{-# LANGUAGE ScopedTypeVariables #-}
-{-# LANGUAGE TypeApplications #-}
-{-# LANGUAGE TypeOperators #-}
-{-# OPTIONS_GHC -Wno-orphans #-}
-{-# LANGUAGE InstanceSigs #-}
-{-# LANGUAGE RankNTypes #-}
-{-# LANGUAGE GADTs #-}
-{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
-{-# HLINT ignore "Redundant bracket" #-}
-{-# LANGUAGE MagicHash           #-}
-{-# LANGUAGE BangPatterns #-}
-{-# LANGUAGE TypeSynonymInstances #-}
 {-# LANGUAGE FlexibleInstances #-}
+{-# LANGUAGE GADTs #-}
+{-# LANGUAGE RankNTypes #-}
+{-# LANGUAGE ScopedTypeVariables #-}
+{-# LANGUAGE TypeFamilies #-}
 
 module Data.Array.Accelerate.Vulkan.Compile.Index where
 
-import Prelude hiding (exp, lookup, init)
-
-import Data.Array.Accelerate.AST.Environment
-    ( Env(Push, Empty), prj', PartialEnv (..), prjPartial, partialUpdate )
+import Control.Monad.State (State)
 import Data.Array.Accelerate.Representation.Shape (ShapeR (..))
-import Data.Array.Accelerate.Representation.Type
-    ( TupR(..), TypeR )
-import Data.Array.Accelerate.Type
-    ( ScalarType(..),
-      FloatingType(..),
-      IntegralType(..),
-      NumType(..),
-      SingleType(..), BitSizeEq, IntegralDict (..), integralDict, FloatingDict (..), floatingDict, BoundedType (..) )
-import Data.Array.Accelerate.AST.LeftHandSide (LeftHandSide(..), Exists(..))
-import Data.Array.Accelerate.AST.Operation (ArrayInstr (..), OpenExp, Fun)
-
-import Control.Monad.State ( State, MonadState(put, get) )
-import Data.Map.Ordered (OMap, notMember, lookup, (|>))
-import Data.Array.Accelerate.Representation.Elt (bytesElt)
-import Data.Array.Accelerate.Vulkan.Type (VulkanArg (..))
-import Data.Array.Accelerate.AST.Exp (PreOpenExp (..), PrimFun (..), expType, IsArrayInstr (..), PrimConst (..), PreOpenFun (..), TAG)
-import Data.Array.Accelerate.AST.Exp (ELeftHandSide)
-import Data.Array.Accelerate.AST.Var (Var(..))
-import Data.Array.Accelerate.AST.Idx (idxToInt, Idx (..))
-import Data.Array.Accelerate.Representation.Ground (GroundR(..))
-import Data.Array.Accelerate.AST.Schedule.Uniform (BaseR(BaseRground))
 import Data.Array.Accelerate.Representation.Slice (SliceIndex (..))
-import Data.Array.Accelerate.Trafo.Exp.Substitution (rebuildNoArrayInstr)
-
-import Data.Array.Accelerate.Vulkan.Compile.Env
+import Data.Array.Accelerate.Representation.Type (TupR (..))
+import Data.Array.Accelerate.Type (IntegralType (..), NumType (..), ScalarType (..), SingleType (..))
+import Data.Array.Accelerate.Vulkan.Compile.Type
 import Data.Array.Accelerate.Vulkan.Compile.Var
-
+import Prelude hiding (exp, init, lookup)
 
 -- | Compile array index into linearized index, give an GLSL expression
 --    The shape of the array is given by the first argument
@@ -55,14 +22,15 @@ compileToIndex :: ExpStringTup sh -> ExpStringTup sh -> ExpString Int
 compileToIndex TupRunit TupRunit = ExpString "0"
 compileToIndex (TupRpair shs (TupRsingle (ExpString sh))) (TupRpair ixs (TupRsingle (ExpString ix))) =
   ExpString $ "(" ++ lowerIdx ++ ")" ++ " * " ++ sh ++ " + " ++ ix
-  where (ExpString lowerIdx) = compileToIndex shs ixs
+  where
+    (ExpString lowerIdx) = compileToIndex shs ixs
 compileToIndex _ _ = error "compileToIndex: impossible"
 
 -- | Compile linearized index into array index, give an GLSL expression
 compileFromIndex :: ShapeR sh -> ExpStringTup sh -> ExpString Int -> State (VarCount, FuncMap, AInstrEnv benv) (String, ExpStringTup sh)
 compileFromIndex ShapeRz TupRunit _ = return ("", TupRunit)
-compileFromIndex (ShapeRsnoc shr) (TupRpair shs (TupRsingle (ExpString sh))) (ExpString ix)
-  = do
+compileFromIndex (ShapeRsnoc shr) (TupRpair shs (TupRsingle (ExpString sh))) (ExpString ix) =
+  do
     (newIdxStatement, newIdx) <- newAndBindVars (TupRsingle (SingleScalarType (NumSingleType (IntegralNumType TypeInt)))) "fromIndex" (TupRsingle $ ExpString $ "(" ++ ix ++ ") % " ++ sh)
     let idxExp = convertVarName2ExpString newIdx
     let newIxStatement = ix ++ " = (" ++ ix ++ ") / " ++ sh ++ ";\n"

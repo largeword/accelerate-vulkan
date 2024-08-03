@@ -18,10 +18,9 @@ extra-source-files:
 library
   exposed-modules:  
       Data.Array.Accelerate.Vulkan.Operation
-    -- , Data.Array.Accelerate.Vulkan.Desugar
     , Data.Array.Accelerate.Vulkan.Kernel
     , Data.Array.Accelerate.Vulkan.Compile.Expression
-    , Data.Array.Accelerate.Vulkan.Compile.Env
+    , Data.Array.Accelerate.Vulkan.Compile.Type
     , Data.Array.Accelerate.Vulkan.Compile.Atomic
     , Data.Array.Accelerate.Vulkan.Compile.Convert
     , Data.Array.Accelerate.Vulkan.Compile.Var
@@ -31,7 +30,7 @@ library
     , Data.Array.Accelerate.Vulkan.Vulkan.Runtime
     , Data.Array.Accelerate.Vulkan.Vulkan.Type
     , Data.Array.Accelerate.Vulkan.Execute
-    , Data.Array.Accelerate.Vulkan.Type
+    , Data.Array.Accelerate.Vulkan.Common
   other-modules:   Paths_accelerate_vulkan
   autogen-modules:  Paths_accelerate_vulkan
   hs-source-dirs:   src
