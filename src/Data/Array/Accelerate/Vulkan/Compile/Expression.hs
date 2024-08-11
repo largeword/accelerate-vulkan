@@ -664,8 +664,8 @@ compilePrimFun (PrimLogBase ft) env exp =
     exp' <- compileStatement env exp
     case exp' of
       (expStatement, TupRpair (TupRsingle (ExpString exp1)) (TupRsingle (ExpString exp2))) -> case ft of
-        TypeHalf -> return (expStatement, TupRsingle $ ExpString ("log(" ++ exp1 ++ ") / log(" ++ exp2 ++ ")"))
-        TypeFloat -> return (expStatement, TupRsingle $ ExpString ("log(" ++ exp1 ++ ") / log(" ++ exp2 ++ ")"))
+        TypeHalf -> return (expStatement, TupRsingle $ ExpString ("log(" ++ exp2 ++ ") / log(" ++ exp1 ++ ")"))
+        TypeFloat -> return (expStatement, TupRsingle $ ExpString ("log(" ++ exp2 ++ ") / log(" ++ exp1 ++ ")"))
         TypeDouble -> error "compilePrimFun: PrimLogBase: Double not supported"
       _ -> error "compilePrimFun: PrimLogBase: Impossible"
 

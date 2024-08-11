@@ -1,0 +1,55 @@
+benchmarking CPU/n512, d64
+time                 484.8 ms   (207.2 ms .. 788.8 ms)
+                     0.933 R²   (0.919 R² .. 1.000 R²)
+mean                 439.4 ms   (376.8 ms .. 497.5 ms)
+std dev              74.10 ms   (57.63 ms .. 87.71 ms)
+variance introduced by outliers: 47% (moderately inflated)
+
+benchmarking CPU/n512, d128
+time                 680.5 ms   (264.0 ms .. 1.287 s)
+                     0.919 R²   (NaN R² .. 1.000 R²)
+mean                 788.5 ms   (643.4 ms .. 912.9 ms)
+std dev              157.9 ms   (69.46 ms .. 207.2 ms)
+variance introduced by outliers: 48% (moderately inflated)
+
+benchmarking CPU/n1024, d64
+time                 703.6 ms   (103.6 ms .. 1.526 s)
+                     0.826 R²   (0.759 R² .. 1.000 R²)
+mean                 1.049 s    (810.3 ms .. 1.457 s)
+std dev              393.0 ms   (54.69 ms .. 502.7 ms)
+variance introduced by outliers: 73% (severely inflated)
+
+benchmarking CPU/n1024, d128
+time                 2.166 s    (1.090 s .. 3.263 s)
+                     0.952 R²   (0.946 R² .. 1.000 R²)
+mean                 2.191 s    (1.915 s .. 2.475 s)
+std dev              352.6 ms   (162.6 ms .. 449.2 ms)
+variance introduced by outliers: 46% (moderately inflated)
+
+benchmarking CPU/n2048, d64
+time                 2.276 s    (824.7 ms .. 5.457 s)
+                     0.810 R²   (0.712 R² .. 1.000 R²)
+mean                 3.170 s    (2.511 s .. 4.211 s)
+std dev              1.059 s    (337.2 ms .. 1.438 s)
+variance introduced by outliers: 73% (severely inflated)
+
+benchmarking CPU/n2048, d128
+time                 5.559 s    (1.502 s .. 7.303 s)
+                     0.939 R²   (0.822 R² .. 1.000 R²)
+mean                 6.383 s    (5.312 s .. 7.956 s)
+std dev              1.522 s    (379.2 ms .. 2.036 s)
+variance introduced by outliers: 48% (moderately inflated)
+
+benchmarking CPU/n4096, d64
+time                 2.245 s    (138.3 ms .. NaN s)
+                     0.664 R²   (0.516 R² .. 1.000 R²)
+mean                 7.762 s    (5.183 s .. 12.14 s)
+std dev              4.154 s    (907.9 ms .. 5.203 s)
+variance introduced by outliers: 74% (severely inflated)
+
+benchmarking CPU/n4096, d128
+time                 12.10 s    (630.1 ms .. 31.98 s)
+                     0.767 R²   (0.654 R² .. 1.000 R²)
+mean                 18.96 s    (13.66 s .. 25.86 s)
+std dev              6.839 s    (2.643 s .. 9.391 s)
+variance introduced by outliers: 73% (severely inflated)

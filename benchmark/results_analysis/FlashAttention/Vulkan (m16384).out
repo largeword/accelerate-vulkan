@@ -1,0 +1,57 @@
+benchmarking Vulkan/n512, d64
+time                 100.5 ms   (88.91 ms .. 110.5 ms)
+                     0.988 R²   (0.966 R² .. 0.998 R²)
+mean                 123.6 ms   (114.6 ms .. 133.2 ms)
+std dev              14.32 ms   (10.67 ms .. 18.79 ms)
+variance introduced by outliers: 35% (moderately inflated)
+
+benchmarking Vulkan/n512, d128
+time                 218.7 ms   (209.3 ms .. 231.9 ms)
+                     0.998 R²   (0.992 R² .. 1.000 R²)
+mean                 225.2 ms   (219.5 ms .. 229.9 ms)
+std dev              7.242 ms   (4.550 ms .. 9.833 ms)
+variance introduced by outliers: 14% (moderately inflated)
+
+benchmarking Vulkan/n1024, d64
+time                 236.1 ms   (113.2 ms .. 353.3 ms)
+                     0.937 R²   (0.831 R² .. 1.000 R²)
+mean                 277.5 ms   (254.3 ms .. 305.1 ms)
+std dev              30.28 ms   (18.11 ms .. 45.84 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/n1024, d128
+time                 436.5 ms   (425.2 ms .. 449.2 ms)
+                     1.000 R²   (NaN R² .. 1.000 R²)
+mean                 488.0 ms   (466.6 ms .. 523.7 ms)
+std dev              33.68 ms   (2.519 ms .. 42.44 ms)
+variance introduced by outliers: 20% (moderately inflated)
+
+benchmarking Vulkan/n2048, d64
+time                 905.3 ms   (829.0 ms .. 968.9 ms)
+                     0.999 R²   (0.997 R² .. 1.000 R²)
+mean                 960.8 ms   (931.9 ms .. 989.0 ms)
+std dev              32.96 ms   (27.00 ms .. 37.23 ms)
+variance introduced by outliers: 19% (moderately inflated)
+m=8192
+
+benchmarking Vulkan/n2048, d128
+time                 1.864 s    (1.566 s .. 2.010 s)
+                     0.997 R²   (0.992 R² .. 1.000 R²)
+mean                 1.909 s    (1.843 s .. 2.008 s)
+std dev              102.7 ms   (38.78 ms .. 140.3 ms)
+variance introduced by outliers: 19% (moderately inflated)
+m=8192
+
+benchmarking Vulkan/n4096, d64
+time                 3.955 s    (3.877 s .. 4.013 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 3.950 s    (3.929 s .. 3.966 s)
+std dev              21.21 ms   (9.038 ms .. 28.12 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+benchmarking Vulkan/n4096, d128
+time                 7.935 s    (7.768 s .. 8.012 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 7.959 s    (7.934 s .. 7.979 s)
+std dev              26.38 ms   (20.73 ms .. 31.48 ms)
+variance introduced by outliers: 19% (moderately inflated)

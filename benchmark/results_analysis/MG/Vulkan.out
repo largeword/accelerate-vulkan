@@ -1,0 +1,474 @@
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-1.lp solve solu /tmp/cbc3623017-2.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 444 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 964 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               3
+AccILPSolver: Time (CPU seconds):             0.06
+AccILPSolver: Time (Wallclock seconds):       0.07
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.09   (Wallclock seconds):       0.10
+AccILPSolver: 
+benchmarking Vulkan/n=128, iter=4
+Using device: NVIDIA GeForce RTX 3090, Vulkan version: 1.3.277
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-3.lp solve solu /tmp/cbc3623017-4.sol (default strategy 1)
+AccILPSolver: Continuous objective value is -1 - 0.00 seconds
+AccILPSolver: Cgl0002I 1 variables fixed
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from -1 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                -1.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               0
+AccILPSolver: Time (CPU seconds):             0.00
+AccILPSolver: Time (Wallclock seconds):       0.00
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+AccILPSolver: 
+time                 270.9 ms   (256.9 ms .. 285.4 ms)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 283.7 ms   (276.1 ms .. 303.2 ms)
+std dev              15.07 ms   (1.758 ms .. 19.67 ms)
+variance introduced by outliers: 16% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-5.lp solve solu /tmp/cbc3623017-6.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 444 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 964 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               3
+AccILPSolver: Time (CPU seconds):             0.06
+AccILPSolver: Time (Wallclock seconds):       0.07
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.09   (Wallclock seconds):       0.10
+AccILPSolver: 
+benchmarking Vulkan/n=128, iter=8
+time                 317.6 ms   (310.2 ms .. 325.9 ms)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 330.0 ms   (324.6 ms .. 334.7 ms)
+std dev              6.531 ms   (3.920 ms .. 8.709 ms)
+variance introduced by outliers: 16% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-7.lp solve solu /tmp/cbc3623017-8.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 444 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 964 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               3
+AccILPSolver: Time (CPU seconds):             0.06
+AccILPSolver: Time (Wallclock seconds):       0.07
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.09   (Wallclock seconds):       0.10
+AccILPSolver: 
+benchmarking Vulkan/n=128, iter=16
+time                 414.4 ms   (367.8 ms .. 479.4 ms)
+                     0.996 R²   (0.995 R² .. 1.000 R²)
+mean                 451.0 ms   (432.0 ms .. 464.1 ms)
+std dev              18.58 ms   (6.761 ms .. 24.74 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-9.lp solve solu /tmp/cbc3623017-10.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 444 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 964 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               3
+AccILPSolver: Time (CPU seconds):             0.06
+AccILPSolver: Time (Wallclock seconds):       0.07
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.08   (Wallclock seconds):       0.10
+AccILPSolver: 
+benchmarking Vulkan/n=128, iter=32
+time                 659.8 ms   (478.4 ms .. 749.4 ms)
+                     0.991 R²   (0.976 R² .. 1.000 R²)
+mean                 669.0 ms   (643.3 ms .. 693.1 ms)
+std dev              29.44 ms   (16.99 ms .. 36.11 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-11.lp solve solu /tmp/cbc3623017-12.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.00 seconds
+AccILPSolver: Cgl0002I 444 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 964 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               3
+AccILPSolver: Time (CPU seconds):             0.06
+AccILPSolver: Time (Wallclock seconds):       0.07
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.08   (Wallclock seconds):       0.10
+AccILPSolver: 
+benchmarking Vulkan/n=128, iter=64
+time                 1.130 s    (976.5 ms .. 1.226 s)
+                     0.997 R²   (0.996 R² .. 1.000 R²)
+mean                 1.095 s    (1.018 s .. 1.127 s)
+std dev              53.57 ms   (9.851 ms .. 69.90 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-13.lp solve solu /tmp/cbc3623017-14.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 444 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 964 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               3
+AccILPSolver: Time (CPU seconds):             0.06
+AccILPSolver: Time (Wallclock seconds):       0.07
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.08   (Wallclock seconds):       0.10
+AccILPSolver: 
+benchmarking Vulkan/n=128, iter=128
+time                 1.806 s    (1.608 s .. 2.186 s)
+                     0.995 R²   (0.989 R² .. 1.000 R²)
+mean                 1.956 s    (1.877 s .. 2.037 s)
+std dev              90.63 ms   (28.98 ms .. 123.5 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-15.lp solve solu /tmp/cbc3623017-16.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.00 seconds
+AccILPSolver: Cgl0002I 500 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 1114 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               15
+AccILPSolver: Time (CPU seconds):             0.07
+AccILPSolver: Time (Wallclock seconds):       0.09
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.09   (Wallclock seconds):       0.11
+AccILPSolver: 
+benchmarking Vulkan/n=256, iter=4
+time                 2.131 s    (2.072 s .. 2.178 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 2.107 s    (2.086 s .. 2.121 s)
+std dev              20.38 ms   (8.068 ms .. 27.88 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-17.lp solve solu /tmp/cbc3623017-18.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 500 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 1114 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               15
+AccILPSolver: Time (CPU seconds):             0.08
+AccILPSolver: Time (Wallclock seconds):       0.10
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.11   (Wallclock seconds):       0.13
+AccILPSolver: 
+benchmarking Vulkan/n=256, iter=8
+time                 2.464 s    (2.437 s .. 2.498 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 2.460 s    (2.449 s .. 2.467 s)
+std dev              10.74 ms   (5.174 ms .. 15.07 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-19.lp solve solu /tmp/cbc3623017-20.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 500 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 1114 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               15
+AccILPSolver: Time (CPU seconds):             0.07
+AccILPSolver: Time (Wallclock seconds):       0.09
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.09   (Wallclock seconds):       0.12
+AccILPSolver: 
+benchmarking Vulkan/n=256, iter=16
+time                 3.125 s    (3.064 s .. 3.162 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 3.147 s    (3.131 s .. 3.174 s)
+std dev              27.12 ms   (6.014 ms .. 35.27 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-21.lp solve solu /tmp/cbc3623017-22.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.00 seconds
+AccILPSolver: Cgl0002I 500 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 1114 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               15
+AccILPSolver: Time (CPU seconds):             0.08
+AccILPSolver: Time (Wallclock seconds):       0.09
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.10   (Wallclock seconds):       0.11
+AccILPSolver: 
+benchmarking Vulkan/n=256, iter=32
+time                 4.470 s    (4.382 s .. 4.587 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 4.530 s    (4.498 s .. 4.548 s)
+std dev              31.41 ms   (13.44 ms .. 43.17 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-23.lp solve solu /tmp/cbc3623017-24.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 500 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 1114 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               15
+AccILPSolver: Time (CPU seconds):             0.08
+AccILPSolver: Time (Wallclock seconds):       0.09
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.11   (Wallclock seconds):       0.11
+AccILPSolver: 
+benchmarking Vulkan/n=256, iter=64
+time                 7.356 s    (7.260 s .. 7.416 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 7.341 s    (7.320 s .. 7.355 s)
+std dev              22.28 ms   (12.20 ms .. 31.45 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+AccILPSolver: Welcome to the CBC MILP Solver 
+AccILPSolver: Version: 2.10.7 
+AccILPSolver: Build Date: Feb 14 2022 
+AccILPSolver: 
+AccILPSolver: command line - cbc /tmp/cbc3623017-25.lp solve solu /tmp/cbc3623017-26.sol (default strategy 1)
+AccILPSolver: Continuous objective value is 0 - 0.01 seconds
+AccILPSolver: Cgl0002I 500 variables fixed
+AccILPSolver: Cgl0003I 0 fixed, 1114 tightened bounds, 0 strengthened rows, 0 substitutions
+AccILPSolver: Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+AccILPSolver: Cbc3007W No integer variables - nothing to do
+AccILPSolver: Cuts at root node changed objective from 0 to -1.79769e+308
+AccILPSolver: Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+AccILPSolver: 
+AccILPSolver: Result - Optimal solution found
+AccILPSolver: 
+AccILPSolver: Objective value:                0.00000000
+AccILPSolver: Enumerated nodes:               0
+AccILPSolver: Total iterations:               15
+AccILPSolver: Time (CPU seconds):             0.08
+AccILPSolver: Time (Wallclock seconds):       0.09
+AccILPSolver: 
+AccILPSolver: Total time (CPU seconds):       0.11   (Wallclock seconds):       0.12
+AccILPSolver: 
+benchmarking Vulkan/n=256, iter=128
+time                 12.90 s    (12.58 s .. 13.19 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 12.88 s    (12.85 s .. 12.94 s)
+std dev              52.27 ms   (4.789 ms .. 65.16 ms)
+variance introduced by outliers: 19% (moderately inflated)
+

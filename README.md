@@ -17,7 +17,7 @@ They are supposed to be installed and configured before running this project.
 One can use `cabal build` and `cabal run` to compile and run the example.
 
 ## Evaluation
-Benchmarks and original results are putted in the forlder [benchmark](https://github.com/largeword/accelerate-vulkan/tree/main/benchmark). Each test can be run by `cabal build` and `cabal run`.
+Benchmarks and original results are put in the forlder [benchmark](https://github.com/largeword/accelerate-vulkan/tree/main/benchmark). Each test can be run by `cabal build` and `cabal run`.
 
 Errors related to the MVar operation might show up during the execution, user can re-run the program until having an error-free run.
 

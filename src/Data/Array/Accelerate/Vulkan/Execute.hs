@@ -316,15 +316,11 @@ executeKernel env env' kernel =
     let stInt = SingleScalarType (NumSingleType (IntegralNumType TypeInt))
     -- Convert shape indices into VulkanArg
     let sh' = map (\idx -> Exists (VulkanArg (Var (GroundRscalar stInt) idx))) (kernelShapes kernel)
-    -- let lock' = case kernelLock kernel of
-    --       Just (len, ini) -> Just (product $ map (\idx -> let (Scalar' _ s _) = prj' (prj' idx env') env in s) len, ini)
-    --       Nothing -> Nothing
     let threads' = product $ map (\idx -> let (Scalar' _ s _) = prj' (prj' idx env') env in s) (kernelThreads kernel)
     -- say $ T.pack ("sh ++ inBuffs: " ++ show (sh' ++ inBuffs))
     -- say $ T.pack ("mutBuffs: " ++ show mutBuffs)
     -- say $ T.pack ("outBuffs: " ++ show outBuffs)
     -- say $ T.pack ("threads: " ++ show (threads env))
-    -- say $ T.pack ("locks: " ++ show locks')
     withLifetime vkGlobalResources (\vkGlobal -> withLifetime (kernelResources kernel) (\vkLocalObj' -> compute vkGlobal vkLocalObj' env env' (sh' ++ kernelInArgs kernel) (kernelMutArgs kernel) (kernelOutArgs kernel) threads'))
     touchVulkanArgs env env' $ sh' ++ kernelInArgs kernel ++ kernelMutArgs kernel ++ kernelOutArgs kernel
     touchLifetime (kernelResources kernel)
