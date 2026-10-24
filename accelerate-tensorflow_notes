@@ -1,0 +1,28 @@
+Accelerate-TensorFlow
+
+-- Error:
+proto-lens-protobuf-types> Linking /tmp/stack-230c03db8481d377/proto-lens-protobuf-types-0.7.1.2/.stack-work/dist/x86_64-linux/ghc-8.10.7/setup/setup ...
+proto-lens-protobuf-types> Configuring proto-lens-protobuf-types-0.7.1.2...
+proto-lens-protobuf-types> build
+proto-lens-protobuf-types> ==========
+proto-lens-protobuf-types> Error: couldn't find the executable "protoc" in your $PATH.
+proto-lens-protobuf-types>     Follow the installation instructions at https://google.github.io/proto-lens/installing-protoc.html .
+proto-lens-protobuf-types> ==========
+proto-lens-protobuf-types> Missing executable "protoc"
+proto-lens-protobuf-types> CallStack (from HasCallStack):
+proto-lens-protobuf-types>   error, called at src/Data/ProtoLens/Setup.hs:371:13 in proto-lens-setup-0.4.0.6-EAEpcOJj7qnFST0W3do9eU:Data.ProtoLens.Setup
+Progress 1/7
+
+Error: [S-7282]
+       Stack failed to execute the build plan.
+       
+       While executing the build plan, Stack encountered the error:
+       
+       [S-7011]
+       While building package proto-lens-protobuf-types-0.7.1.2 (scroll up to
+       its section to see the error) using:
+       /tmp/stack-230c03db8481d377/proto-lens-protobuf-types-0.7.1.2/.stack-work/dist/x86_64-linux/ghc-8.10.7/setup/setup --verbose=1 --builddir=.stack-work/dist/x86_64-linux/ghc-8.10.7 build --ghc-options " -fdiagnostics-color=always"
+       Process exited with code: ExitFailure 1 
+
+-- Fix: 
+sudo apt install protobuf-compiler
