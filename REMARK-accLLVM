@@ -1,0 +1,121 @@
+15/07/2023
+
+# Clone
+Running 
+```
+git clone https://github.com/AccelerateHS/accelerate-llvm.git
+```
+
+# Stack build
+## Error 1
+```
+$ stack init
+```
+
+```
+Error: [S-1833]
+       None of the following snapshots provides a compiler matching your
+       package(s):
+       * lts-21.2
+       * nightly-2023-07-15
+       * lts-20.26
+       * lts-19.33
+       * lts-18.28
+       * lts-17.15
+       * lts-16.31
+       * lts-15.16
+       * lts-14.27
+       * lts-13.30
+       * lts-12.26
+       * lts-11.22
+       * lts-10.10
+       * lts-9.21
+       * lts-8.24
+       * lts-7.24
+       * lts-6.35
+       * lts-5.18
+       * lts-4.2
+       * lts-3.22
+       
+       This may be resolved by:
+       * Using --omit-packages to exclude mismatching package(s).
+       * Using --resolver to specify a matching snapshot/resolver.
+```
+
+## Solution 1
+Don't run 
+```
+$ stack init
+```
+instead, using 
+```
+$ ln -s stack-9.0.yaml stack.yaml
+$ stack setup
+$ stack build
+```
+
+## Error 2
+```
+accelerate-llvm       > /home/luxinliang/graduate_project/accelerate-llvm/accelerate-llvm/src/LLVM/AST/Type/Instruction.hs:205:22: error:
+accelerate-llvm       >     Not in scope: type constructor or class ‘TupleIdx’
+accelerate-llvm       >     |
+accelerate-llvm       > 205 |                   -> TupleIdx tup t
+accelerate-llvm       >     |                      ^^^^^^^^
+accelerate-llvm       > 
+accelerate-llvm       > /home/luxinliang/graduate_project/accelerate-llvm/accelerate-llvm/src/LLVM/AST/Type/Instruction.hs:245:22: error:
+accelerate-llvm       >     Not in scope: type constructor or class ‘TupleIdx’
+accelerate-llvm       >     |
+accelerate-llvm       > 245 |                   -> TupleIdx a t
+accelerate-llvm       >     |                      ^^^^^^^^
+accelerate-llvm       > 
+accelerate-llvm       > /home/luxinliang/graduate_project/accelerate-llvm/accelerate-llvm/src/LLVM/AST/Type/Instruction.hs:536:24: error:
+accelerate-llvm       >     Not in scope: type constructor or class ‘TupleIdx’
+accelerate-llvm       >     |
+accelerate-llvm       > 536 |       extractStruct :: TupleIdx s t -> Operand (Struct s) -> LLVM.Instruction
+accelerate-llvm       >     |                        ^^^^^^^^
+Progress 1/3
+
+Error: [S-7282]
+       Stack failed to execute the build plan.
+       
+       While executing the build plan, Stack encountered the error:
+       
+       [S-7011]
+       While building package accelerate-llvm-1.3.0.0 (scroll up to its section
+       to see the error) using:
+       /home/luxinliang/.stack/setup-exe-cache/x86_64-linux/Cabal-simple_6HauvNHV_3.4.1.0_ghc-9.0.2 --verbose=1 --builddir=.stack-work/dist/x86_64-linux/Cabal-3.4.1.0 build lib:accelerate-llvm --ghc-options " -fdiagnostics-color=always"
+       Process exited with code: ExitFailure 1
+```
+
+## Solution
+Don't try to export "TupleIdx", it may break Accelerate
+
+# CUDA
+## Error
+During suite test:
+```
+accelerate-llvm-ptx   > Test suite nofib-llvm-ptx failed
+Completed 4 action(s).
+
+Error: [S-7282]
+       Stack failed to execute the build plan.
+       
+       While executing the build plan, Stack encountered the following errors:
+       
+       Error: [S-1995]
+       Test suite failure for package accelerate-llvm-ptx-1.3.0.0
+           nofib-llvm-ptx:  exited with: ExitFailure 1
+       Logs printed to console
+       
+       
+       Error: [S-1995]
+       Test suite failure for package accelerate-llvm-native-1.3.0.0
+           nofib-llvm-native:  exited with: ExitFailure 1
+       Logs printed to console
+```
+
+## Solution
+Using CUDA 11 to compile:
+```
+env LD_LIBRARY_PATH="/usr/lib/llvm-12/lib:/usr/local/cuda-11.8/lib64:/usr/local/cuda-11.8/nvvm/lib64" PATH="/usr/lib/llvm-12/bin:/usr/local/cuda-11.8/bin:/usr/local/cuda-11.8/nvvm/bin:/home/luxinliang/miniconda3/bin:/home/luxinliang/miniconda3/condabin:/home/luxinliang/.cabal/bin:/home/luxinliang/.ghcup/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/snap/bin" stack build
+```
